@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="O8J-gz-W81">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Background Controller-->
+        <scene sceneID="KHD-7B-fRp">
+            <objects>
+                <viewController id="O8J-gz-W81" userLabel="Background Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G97-y9-Ixt"/>
+                        <viewControllerLayoutGuide type="bottom" id="v1B-6E-UAj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bOa-KV-A0w">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="8zy-mx-vZc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a9r-uq-oz4" userLabel="overlay">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6DN-8M-cHU">
+                                <rect key="frame" x="80" y="249" width="160" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PhotoBar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WG3-Mj-ViL">
+                                        <rect key="frame" x="2" y="0.0" width="157" height="46"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2015 Lennart Reiher" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAt-2Z-i0l">
+                                        <rect key="frame" x="3" y="52" width="155" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="0.70000000000000007" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="WG3-Mj-ViL" secondAttribute="centerX" id="299-n9-qFP"/>
+                                    <constraint firstAttribute="height" constant="70" id="Bel-p5-YE6"/>
+                                    <constraint firstAttribute="width" constant="160" id="Zni-xB-lLE"/>
+                                    <constraint firstItem="WG3-Mj-ViL" firstAttribute="top" secondItem="6DN-8M-cHU" secondAttribute="top" id="bSq-sC-a8L"/>
+                                    <constraint firstAttribute="centerX" secondItem="CAt-2Z-i0l" secondAttribute="centerX" id="ezm-a7-2ks"/>
+                                    <constraint firstAttribute="bottom" secondItem="CAt-2Z-i0l" secondAttribute="bottom" id="fo6-7O-AP5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="6DN-8M-cHU" secondAttribute="centerY" id="3jZ-Df-65b"/>
+                            <constraint firstItem="8zy-mx-vZc" firstAttribute="top" secondItem="bOa-KV-A0w" secondAttribute="top" id="3oQ-dM-X7g"/>
+                            <constraint firstItem="8zy-mx-vZc" firstAttribute="leading" secondItem="bOa-KV-A0w" secondAttribute="leading" id="6sV-13-61B"/>
+                            <constraint firstItem="a9r-uq-oz4" firstAttribute="top" secondItem="bOa-KV-A0w" secondAttribute="top" id="MwQ-KN-YnY"/>
+                            <constraint firstItem="v1B-6E-UAj" firstAttribute="top" secondItem="8zy-mx-vZc" secondAttribute="bottom" id="TYb-OO-noL"/>
+                            <constraint firstAttribute="centerX" secondItem="6DN-8M-cHU" secondAttribute="centerX" id="VF4-07-pZW"/>
+                            <constraint firstAttribute="trailing" secondItem="8zy-mx-vZc" secondAttribute="trailing" id="WfO-VX-Q8E"/>
+                            <constraint firstItem="v1B-6E-UAj" firstAttribute="top" secondItem="a9r-uq-oz4" secondAttribute="bottom" id="asx-yt-yQh"/>
+                            <constraint firstItem="a9r-uq-oz4" firstAttribute="leading" secondItem="bOa-KV-A0w" secondAttribute="leading" id="mZN-U3-njm"/>
+                            <constraint firstAttribute="trailing" secondItem="a9r-uq-oz4" secondAttribute="trailing" id="voh-Y9-uJF"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qpg-xg-aaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-257" y="475"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.png" width="1080" height="1920"/>
+    </resources>
+</document>

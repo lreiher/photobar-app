@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5f4-e8-Akx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Layout 7-->
+        <scene sceneID="8v1-IV-rBd">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="5f4-e8-Akx" userLabel="Layout 7" customClass="TodayViewControllerLayout7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pom-8R-itk"/>
+                        <viewControllerLayoutGuide type="bottom" id="hY2-Jh-zDR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="X9g-aE-Yaz">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="160"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NOB-ko-SsO" userLabel="Image View 1">
+                                <rect key="frame" x="5" y="0.0" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NOB-ko-SsO" secondAttribute="height" multiplier="1:1" id="M2p-Nx-kSA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ay4-mo-oFJ" userLabel="Image View 2">
+                                <rect key="frame" x="165" y="0.0" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ay4-mo-oFJ" secondAttribute="height" multiplier="1:1" id="ZhG-Su-N0M"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0xJ-eA-4EG" userLabel="Image View 3">
+                                <rect key="frame" x="245" y="0.0" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q2M-bW-6Hd" userLabel="Image View 4">
+                                <rect key="frame" x="165" y="80" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A3R-mM-XKe" userLabel="Image View 5">
+                                <rect key="frame" x="245" y="80" width="80" height="80"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXa-Bj-rAi" userLabel="View 1">
+                                <rect key="frame" x="0.0" y="0.0" width="5" height="160"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EIj-ma-FWQ" userLabel="View 2">
+                                <rect key="frame" x="325" y="0.0" width="5" height="160"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="hXa-Bj-rAi" firstAttribute="height" secondItem="EIj-ma-FWQ" secondAttribute="height" id="0Ne-dI-YJX"/>
+                            <constraint firstItem="NOB-ko-SsO" firstAttribute="top" secondItem="X9g-aE-Yaz" secondAttribute="top" id="2yP-Uz-jEj"/>
+                            <constraint firstItem="EIj-ma-FWQ" firstAttribute="top" secondItem="X9g-aE-Yaz" secondAttribute="top" id="376-mA-AmT"/>
+                            <constraint firstItem="ay4-mo-oFJ" firstAttribute="top" secondItem="X9g-aE-Yaz" secondAttribute="top" id="4zr-g0-FaA"/>
+                            <constraint firstItem="ay4-mo-oFJ" firstAttribute="leading" secondItem="NOB-ko-SsO" secondAttribute="trailing" id="6hk-59-NNf"/>
+                            <constraint firstItem="hXa-Bj-rAi" firstAttribute="top" secondItem="X9g-aE-Yaz" secondAttribute="top" id="77P-dY-7xH"/>
+                            <constraint firstAttribute="bottom" secondItem="hXa-Bj-rAi" secondAttribute="bottom" id="8qn-02-9wz"/>
+                            <constraint firstItem="Q2M-bW-6Hd" firstAttribute="width" secondItem="A3R-mM-XKe" secondAttribute="width" id="D6v-YK-OGm"/>
+                            <constraint firstItem="Q2M-bW-6Hd" firstAttribute="height" secondItem="0xJ-eA-4EG" secondAttribute="height" id="EEb-fv-aMS"/>
+                            <constraint firstItem="0xJ-eA-4EG" firstAttribute="leading" secondItem="ay4-mo-oFJ" secondAttribute="trailing" id="GVF-WL-eXt"/>
+                            <constraint firstAttribute="bottom" secondItem="Q2M-bW-6Hd" secondAttribute="bottom" id="HRt-4u-LwK"/>
+                            <constraint firstItem="Q2M-bW-6Hd" firstAttribute="width" secondItem="0xJ-eA-4EG" secondAttribute="width" id="HYi-A3-0VQ"/>
+                            <constraint firstItem="EIj-ma-FWQ" firstAttribute="leading" secondItem="A3R-mM-XKe" secondAttribute="trailing" id="IeX-FO-XDA"/>
+                            <constraint firstItem="Q2M-bW-6Hd" firstAttribute="width" secondItem="ay4-mo-oFJ" secondAttribute="width" id="Ir4-Zu-KEO"/>
+                            <constraint firstAttribute="bottom" secondItem="A3R-mM-XKe" secondAttribute="bottom" id="JT7-3Q-q7m"/>
+                            <constraint firstItem="Q2M-bW-6Hd" firstAttribute="height" secondItem="A3R-mM-XKe" secondAttribute="height" id="JUe-aP-HFd"/>
+                            <constraint firstItem="Q2M-bW-6Hd" firstAttribute="height" secondItem="ay4-mo-oFJ" secondAttribute="height" id="KkG-34-1Tv"/>
+                            <constraint firstAttribute="bottom" secondItem="EIj-ma-FWQ" secondAttribute="bottom" id="LyV-Rl-Wmu"/>
+                            <constraint firstAttribute="trailing" secondItem="EIj-ma-FWQ" secondAttribute="trailing" id="P6D-ZO-khq"/>
+                            <constraint firstItem="hXa-Bj-rAi" firstAttribute="leading" secondItem="X9g-aE-Yaz" secondAttribute="leading" id="Qnm-Gq-6dk"/>
+                            <constraint firstItem="A3R-mM-XKe" firstAttribute="top" secondItem="0xJ-eA-4EG" secondAttribute="bottom" id="VpQ-hV-mZR"/>
+                            <constraint firstItem="NOB-ko-SsO" firstAttribute="leading" secondItem="hXa-Bj-rAi" secondAttribute="trailing" id="WpA-R5-jdj"/>
+                            <constraint firstItem="0xJ-eA-4EG" firstAttribute="top" secondItem="X9g-aE-Yaz" secondAttribute="top" id="ZLR-R2-bkC"/>
+                            <constraint firstItem="A3R-mM-XKe" firstAttribute="leading" secondItem="Q2M-bW-6Hd" secondAttribute="trailing" id="acn-VX-bg3"/>
+                            <constraint firstItem="EIj-ma-FWQ" firstAttribute="leading" secondItem="0xJ-eA-4EG" secondAttribute="trailing" id="h73-H8-STX"/>
+                            <constraint firstItem="Q2M-bW-6Hd" firstAttribute="leading" secondItem="NOB-ko-SsO" secondAttribute="trailing" id="kT0-gA-Ftv"/>
+                            <constraint firstItem="hXa-Bj-rAi" firstAttribute="width" secondItem="EIj-ma-FWQ" secondAttribute="width" id="kZR-K3-4pb"/>
+                            <constraint firstItem="Q2M-bW-6Hd" firstAttribute="top" secondItem="ay4-mo-oFJ" secondAttribute="bottom" id="xcw-eQ-qAs"/>
+                            <constraint firstAttribute="bottom" secondItem="NOB-ko-SsO" secondAttribute="bottom" id="yH8-xW-L3y"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="330" height="160"/>
+                    <connections>
+                        <outlet property="imageView1" destination="NOB-ko-SsO" id="lCO-IX-Y2D"/>
+                        <outlet property="imageView2" destination="ay4-mo-oFJ" id="wI4-xm-2lL"/>
+                        <outlet property="imageView3" destination="0xJ-eA-4EG" id="EtK-I4-clt"/>
+                        <outlet property="imageView4" destination="Q2M-bW-6Hd" id="plO-uL-MW6"/>
+                        <outlet property="imageView5" destination="A3R-mM-XKe" id="YrM-VG-xMV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ptA-sQ-1Zj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920.5" y="64.5"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

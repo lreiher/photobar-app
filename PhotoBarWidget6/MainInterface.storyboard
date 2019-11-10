@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="he2-Iq-mfY">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Layout 6-->
+        <scene sceneID="USr-ab-yq1">
+            <objects>
+                <viewController id="he2-Iq-mfY" userLabel="Layout 6" customClass="TodayViewControllerLayout6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9A3-dr-fxA"/>
+                        <viewControllerLayoutGuide type="bottom" id="tNA-YC-kFu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gyM-Qg-5YG">
+                        <rect key="frame" x="0.0" y="0.0" width="370" height="160"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ATZ-aR-e0M" userLabel="Image View 1">
+                                <rect key="frame" x="5" y="0.0" width="120" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ATZ-aR-e0M" secondAttribute="height" multiplier="3:4" id="nKu-5x-nq0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dNS-v9-SlE" userLabel="Image View 2">
+                                <rect key="frame" x="125" y="0.0" width="120" height="160"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1pL-vP-wA8" userLabel="Image View 3">
+                                <rect key="frame" x="245" y="0.0" width="120" height="160"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0PN-p2-rfc" userLabel="View 1">
+                                <rect key="frame" x="0.0" y="0.0" width="5" height="160"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Iw-Aa-K5y" userLabel="View 2">
+                                <rect key="frame" x="365" y="0.0" width="5" height="160"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="6Iw-Aa-K5y" firstAttribute="width" secondItem="0PN-p2-rfc" secondAttribute="width" id="0VX-h2-c3z"/>
+                            <constraint firstItem="6Iw-Aa-K5y" firstAttribute="top" secondItem="gyM-Qg-5YG" secondAttribute="top" id="0n3-ju-Pf4"/>
+                            <constraint firstItem="ATZ-aR-e0M" firstAttribute="leading" secondItem="0PN-p2-rfc" secondAttribute="trailing" id="1N9-0P-uss"/>
+                            <constraint firstItem="dNS-v9-SlE" firstAttribute="top" secondItem="gyM-Qg-5YG" secondAttribute="top" id="32S-X2-zJF"/>
+                            <constraint firstAttribute="bottom" secondItem="ATZ-aR-e0M" secondAttribute="bottom" id="387-Ek-8SW"/>
+                            <constraint firstItem="0PN-p2-rfc" firstAttribute="top" secondItem="gyM-Qg-5YG" secondAttribute="top" id="3BY-sV-mJo"/>
+                            <constraint firstItem="dNS-v9-SlE" firstAttribute="leading" secondItem="ATZ-aR-e0M" secondAttribute="trailing" id="4LU-vL-tVr"/>
+                            <constraint firstItem="0PN-p2-rfc" firstAttribute="leading" secondItem="gyM-Qg-5YG" secondAttribute="leading" id="5gi-Yt-gY5"/>
+                            <constraint firstAttribute="bottom" secondItem="dNS-v9-SlE" secondAttribute="bottom" id="Sjr-cg-e1T"/>
+                            <constraint firstItem="6Iw-Aa-K5y" firstAttribute="leading" secondItem="1pL-vP-wA8" secondAttribute="trailing" id="aLM-YG-CUW"/>
+                            <constraint firstItem="ATZ-aR-e0M" firstAttribute="top" secondItem="gyM-Qg-5YG" secondAttribute="top" id="cTm-96-oIX"/>
+                            <constraint firstAttribute="bottom" secondItem="0PN-p2-rfc" secondAttribute="bottom" id="d3L-6s-yaP"/>
+                            <constraint firstItem="dNS-v9-SlE" firstAttribute="height" secondItem="ATZ-aR-e0M" secondAttribute="height" id="dl2-lm-tfS"/>
+                            <constraint firstItem="dNS-v9-SlE" firstAttribute="width" secondItem="ATZ-aR-e0M" secondAttribute="width" id="i5D-Fb-wfc"/>
+                            <constraint firstItem="6Iw-Aa-K5y" firstAttribute="height" secondItem="0PN-p2-rfc" secondAttribute="height" id="idE-bL-xES"/>
+                            <constraint firstItem="dNS-v9-SlE" firstAttribute="height" secondItem="1pL-vP-wA8" secondAttribute="height" id="kAJ-fW-hJJ"/>
+                            <constraint firstItem="dNS-v9-SlE" firstAttribute="width" secondItem="1pL-vP-wA8" secondAttribute="width" id="kH9-mY-REE"/>
+                            <constraint firstItem="1pL-vP-wA8" firstAttribute="leading" secondItem="dNS-v9-SlE" secondAttribute="trailing" id="ndp-9S-MZj"/>
+                            <constraint firstItem="1pL-vP-wA8" firstAttribute="top" secondItem="gyM-Qg-5YG" secondAttribute="top" id="oi7-Xj-cFY"/>
+                            <constraint firstAttribute="bottom" secondItem="1pL-vP-wA8" secondAttribute="bottom" id="snK-px-eah"/>
+                            <constraint firstAttribute="bottom" secondItem="6Iw-Aa-K5y" secondAttribute="bottom" id="zYP-5a-MRa"/>
+                            <constraint firstAttribute="trailing" secondItem="6Iw-Aa-K5y" secondAttribute="trailing" id="zsh-Pc-5Bj"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="370" height="160"/>
+                    <connections>
+                        <outlet property="imageView1" destination="ATZ-aR-e0M" id="7uG-fA-enD"/>
+                        <outlet property="imageView2" destination="dNS-v9-SlE" id="fmb-29-4Cm"/>
+                        <outlet property="imageView3" destination="1pL-vP-wA8" id="PCs-fU-Zik"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dhb-cz-Arq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="219"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

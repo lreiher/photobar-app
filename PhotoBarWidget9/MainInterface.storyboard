@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cgv-Rg-J6D">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Layout 9-->
+        <scene sceneID="7Oo-i9-t6p">
+            <objects>
+                <viewController id="cgv-Rg-J6D" userLabel="Layout 9" customClass="TodayViewControllerLayout9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sk0-Mt-YBB"/>
+                        <viewControllerLayoutGuide type="bottom" id="rUH-mK-IN3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qWD-oV-rXv">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="160"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dGO-cs-2xS" userLabel="Image View 1">
+                                <rect key="frame" x="5" y="0.0" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dGO-cs-2xS" secondAttribute="height" multiplier="1:1" id="chf-OG-62f"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QAi-rt-uJh" userLabel="Image View 2">
+                                <rect key="frame" x="85" y="0.0" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vpU-pA-MgD" userLabel="Image View 3">
+                                <rect key="frame" x="5" y="80" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ak8-Uh-pAI" userLabel="Image View 4">
+                                <rect key="frame" x="85" y="80" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WyO-7v-fWO" userLabel="Image View 5">
+                                <rect key="frame" x="165" y="0.0" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WyO-7v-fWO" secondAttribute="height" multiplier="1:1" id="3xO-X1-HhP"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vxs-9V-Iil" userLabel="View 1">
+                                <rect key="frame" x="0.0" y="0.0" width="5" height="160"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEk-SN-Tig" userLabel="View 2">
+                                <rect key="frame" x="325" y="0.0" width="5" height="160"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Ak8-Uh-pAI" firstAttribute="height" secondItem="QAi-rt-uJh" secondAttribute="height" id="07G-Jd-FCj"/>
+                            <constraint firstItem="Ak8-Uh-pAI" firstAttribute="width" secondItem="QAi-rt-uJh" secondAttribute="width" id="2iH-1t-aWz"/>
+                            <constraint firstItem="WyO-7v-fWO" firstAttribute="leading" secondItem="QAi-rt-uJh" secondAttribute="trailing" id="4tY-Vh-1OF"/>
+                            <constraint firstItem="Ak8-Uh-pAI" firstAttribute="width" secondItem="vpU-pA-MgD" secondAttribute="width" id="663-Zh-uG6"/>
+                            <constraint firstItem="WyO-7v-fWO" firstAttribute="top" secondItem="sk0-Mt-YBB" secondAttribute="bottom" id="6CB-QO-6Dw"/>
+                            <constraint firstItem="QAi-rt-uJh" firstAttribute="leading" secondItem="dGO-cs-2xS" secondAttribute="trailing" id="7D7-70-07n"/>
+                            <constraint firstItem="dGO-cs-2xS" firstAttribute="top" secondItem="sk0-Mt-YBB" secondAttribute="bottom" id="Imr-4R-Cgc"/>
+                            <constraint firstItem="Vxs-9V-Iil" firstAttribute="width" secondItem="uEk-SN-Tig" secondAttribute="width" id="KId-xU-qKy"/>
+                            <constraint firstItem="QAi-rt-uJh" firstAttribute="top" secondItem="sk0-Mt-YBB" secondAttribute="bottom" id="KjI-yi-vkI"/>
+                            <constraint firstItem="rUH-mK-IN3" firstAttribute="top" secondItem="uEk-SN-Tig" secondAttribute="bottom" id="L3c-pn-9c7"/>
+                            <constraint firstItem="vpU-pA-MgD" firstAttribute="top" secondItem="dGO-cs-2xS" secondAttribute="bottom" id="NGP-t4-hgb"/>
+                            <constraint firstItem="Vxs-9V-Iil" firstAttribute="height" secondItem="uEk-SN-Tig" secondAttribute="height" id="NGS-ho-UdZ"/>
+                            <constraint firstItem="rUH-mK-IN3" firstAttribute="top" secondItem="WyO-7v-fWO" secondAttribute="bottom" id="OZS-Lk-kfa"/>
+                            <constraint firstItem="WyO-7v-fWO" firstAttribute="leading" secondItem="Ak8-Uh-pAI" secondAttribute="trailing" id="RlA-EH-Uh3"/>
+                            <constraint firstItem="Ak8-Uh-pAI" firstAttribute="height" secondItem="dGO-cs-2xS" secondAttribute="height" id="U5i-7g-ShB"/>
+                            <constraint firstItem="Ak8-Uh-pAI" firstAttribute="height" secondItem="vpU-pA-MgD" secondAttribute="height" id="UV2-ew-L6e"/>
+                            <constraint firstItem="Ak8-Uh-pAI" firstAttribute="leading" secondItem="vpU-pA-MgD" secondAttribute="trailing" id="WoY-14-tpP"/>
+                            <constraint firstItem="rUH-mK-IN3" firstAttribute="top" secondItem="Ak8-Uh-pAI" secondAttribute="bottom" id="a8T-gP-5UY"/>
+                            <constraint firstItem="Ak8-Uh-pAI" firstAttribute="top" secondItem="QAi-rt-uJh" secondAttribute="bottom" id="bRe-rH-4r3"/>
+                            <constraint firstItem="rUH-mK-IN3" firstAttribute="top" secondItem="Vxs-9V-Iil" secondAttribute="bottom" id="gD7-ws-Emu"/>
+                            <constraint firstItem="uEk-SN-Tig" firstAttribute="leading" secondItem="WyO-7v-fWO" secondAttribute="trailing" id="hEd-JN-bhG"/>
+                            <constraint firstItem="rUH-mK-IN3" firstAttribute="top" secondItem="vpU-pA-MgD" secondAttribute="bottom" id="j3g-M0-Bud"/>
+                            <constraint firstItem="Vxs-9V-Iil" firstAttribute="top" secondItem="sk0-Mt-YBB" secondAttribute="bottom" id="oUT-eb-klX"/>
+                            <constraint firstItem="vpU-pA-MgD" firstAttribute="leading" secondItem="Vxs-9V-Iil" secondAttribute="trailing" id="pms-8b-jLe"/>
+                            <constraint firstItem="Ak8-Uh-pAI" firstAttribute="width" secondItem="dGO-cs-2xS" secondAttribute="width" id="tVg-fA-jiT"/>
+                            <constraint firstAttribute="trailing" secondItem="uEk-SN-Tig" secondAttribute="trailing" id="ugZ-mY-aov"/>
+                            <constraint firstItem="dGO-cs-2xS" firstAttribute="leading" secondItem="Vxs-9V-Iil" secondAttribute="trailing" id="wtA-0w-Ugc"/>
+                            <constraint firstItem="uEk-SN-Tig" firstAttribute="top" secondItem="sk0-Mt-YBB" secondAttribute="bottom" id="yNn-Ce-vMT"/>
+                            <constraint firstItem="Vxs-9V-Iil" firstAttribute="leading" secondItem="qWD-oV-rXv" secondAttribute="leading" id="ybi-94-o7e"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="330" height="160"/>
+                    <connections>
+                        <outlet property="imageView1" destination="dGO-cs-2xS" id="E81-Lt-oh7"/>
+                        <outlet property="imageView2" destination="QAi-rt-uJh" id="vwV-EI-avv"/>
+                        <outlet property="imageView3" destination="vpU-pA-MgD" id="OCx-Po-enu"/>
+                        <outlet property="imageView4" destination="Ak8-Uh-pAI" id="0Wx-GY-EZH"/>
+                        <outlet property="imageView5" destination="WyO-7v-fWO" id="1Kj-pF-Dc5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhO-np-fA6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="263" y="358"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

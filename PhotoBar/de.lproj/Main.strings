@@ -1,0 +1,261 @@
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "1Bk-Vf-fNw"; */
+"1Bk-Vf-fNw.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "1xG-mU-weM"; */
+"1xG-mU-weM.normalTitle" = "•••";
+
+/* Class = "IBUINavigationItem"; title = "Layout 3"; ObjectID = "2pY-K6-86d"; */
+"2pY-K6-86d.title" = "Layout 3";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "3pK-cw-zsV"; */
+"3pK-cw-zsV.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "3yO-zb-473"; */
+"3yO-zb-473.normalTitle" = "•••";
+
+/* Class = "IBUILabel"; text = "7"; ObjectID = "4bx-xw-3xs"; */
+"4bx-xw-3xs.text" = "7";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "5YX-Tn-T0t"; */
+"5YX-Tn-T0t.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "6gf-je-Rsm"; */
+"6gf-je-Rsm.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "7jo-TQ-fTs"; */
+"7jo-TQ-fTs.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "A7a-ir-JX1"; */
+"A7a-ir-JX1.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "2"; ObjectID = "AGG-pF-XZl"; */
+"AGG-pF-XZl.text" = "2";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "BIc-FY-kiy"; */
+"BIc-FY-kiy.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "BZg-cL-KDZ"; */
+"BZg-cL-KDZ.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "CCP-fv-Go9"; */
+"CCP-fv-Go9.normalTitle" = "•••";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar 5 from the list."; ObjectID = "Cbm-oa-80F"; */
+"Cbm-oa-80F.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar 5 aus der Liste.";
+
+/* Class = "IBUILabel"; text = "3"; ObjectID = "DI9-tl-WoZ"; */
+"DI9-tl-WoZ.text" = "3";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar 2 from the list."; ObjectID = "DdI-cO-9pt"; */
+"DdI-cO-9pt.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar 2 aus der Liste.";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "ENe-xQ-PXU"; */
+"ENe-xQ-PXU.title" = "Bearbeiten";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "EV3-mS-Qv6"; */
+"EV3-mS-Qv6.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "EhT-1h-TLo"; */
+"EhT-1h-TLo.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "FdA-HF-Kdb"; */
+"FdA-HF-Kdb.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "Ff3-PV-GBe"; */
+"Ff3-PV-GBe.normalTitle" = "•••";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "HzI-PC-AV5"; */
+"HzI-PC-AV5.title" = "Bearbeiten";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "IE0-Ks-0bl"; */
+"IE0-Ks-0bl.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "ITW-q9-TIV"; */
+"ITW-q9-TIV.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "ImX-br-T1H"; */
+"ImX-br-T1H.normalTitle" = "•••";
+
+/* Class = "IBUILabel"; text = "1"; ObjectID = "JRh-cv-T91"; */
+"JRh-cv-T91.text" = "1";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "L7D-Or-Gmj"; */
+"L7D-Or-Gmj.title" = "Bearbeiten";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "LUy-vF-AUP"; */
+"LUy-vF-AUP.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "Mgu-Iu-qmE"; */
+"Mgu-Iu-qmE.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "Mhk-hF-vXh"; */
+"Mhk-hF-vXh.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "MqS-FA-e7r"; */
+"MqS-FA-e7r.normalTitle" = "•••";
+
+/* Class = "IBUILabel"; text = "5"; ObjectID = "O5Y-FR-d9V"; */
+"O5Y-FR-d9V.text" = "5";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "OG1-bj-1a8"; */
+"OG1-bj-1a8.normalTitle" = "•••";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar 9 from the list."; ObjectID = "Q24-Xo-uB0"; */
+"Q24-Xo-uB0.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar 9 aus der Liste.";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "QBV-Ie-ovl"; */
+"QBV-Ie-ovl.normalTitle" = "•••";
+
+/* Class = "IBUILabel"; text = "Select a layout to add and edit photos."; ObjectID = "RfZ-D4-7h7"; */
+"RfZ-D4-7h7.text" = "Wähle ein Layout aus, um Fotos hinzuzufügen oder zu bearbeiten.";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "SXx-Bu-cDp"; */
+"SXx-Bu-cDp.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "Ssc-y9-iH6"; */
+"Ssc-y9-iH6.normalTitle" = "•••";
+
+/* Class = "IBUINavigationItem"; title = "Layout 7"; ObjectID = "T6r-KM-eKR"; */
+"T6r-KM-eKR.title" = "Layout 7";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "U1X-cV-SFo"; */
+"U1X-cV-SFo.normalTitle" = "•••";
+
+/* Class = "IBUINavigationItem"; title = "Layout 8"; ObjectID = "UYo-c9-ExL"; */
+"UYo-c9-ExL.title" = "Layout 8";
+
+/* Class = "IBUINavigationItem"; title = "Layout 6"; ObjectID = "V7q-Hx-6y8"; */
+"V7q-Hx-6y8.title" = "Layout 6";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar 6 from the list."; ObjectID = "WC9-Ta-cz2"; */
+"WC9-Ta-cz2.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar 6 aus der Liste.";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "Ygc-8A-Mw4"; */
+"Ygc-8A-Mw4.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "Ygt-Lu-vWz"; */
+"Ygt-Lu-vWz.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "Zm9-RA-Jbm"; */
+"Zm9-RA-Jbm.normalTitle" = "•••";
+
+/* Class = "IBUILabel"; text = "9"; ObjectID = "Zvs-yg-LZX"; */
+"Zvs-yg-LZX.text" = "9";
+
+/* Class = "IBUILabel"; text = "PhotoBar"; ObjectID = "adq-G9-y10"; */
+"adq-G9-y10.text" = "PhotoBar";
+
+/* Class = "IBUINavigationItem"; title = "Layout 2"; ObjectID = "ayn-6z-jRb"; */
+"ayn-6z-jRb.title" = "Layout 2";
+
+/* Class = "IBUINavigationItem"; title = "Layout 9"; ObjectID = "bkJ-vE-w0s"; */
+"bkJ-vE-w0s.title" = "Layout 9";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar 7 from the list."; ObjectID = "cVW-BJ-s3L"; */
+"cVW-BJ-s3L.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar 7 aus der Liste.";
+
+/* Class = "IBUINavigationItem"; title = "Layout 1"; ObjectID = "cY8-pp-GWr"; */
+"cY8-pp-GWr.title" = "Layout 1";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar 8 from the list."; ObjectID = "e5d-J0-7Dk"; */
+"e5d-J0-7Dk.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar 8 aus der Liste.";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "eOF-XC-9xj"; */
+"eOF-XC-9xj.title" = "Bearbeiten";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "fMu-xC-mi7"; */
+"fMu-xC-mi7.normalTitle" = "Button";
+
+/* Class = "IBUINavigationItem"; title = "Layout 4"; ObjectID = "fXx-5Q-2hb"; */
+"fXx-5Q-2hb.title" = "Layout 4";
+
+/* Class = "IBUILabel"; text = "4"; ObjectID = "hq1-EF-awW"; */
+"hq1-EF-awW.text" = "4";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar 1 from the list."; ObjectID = "icw-K2-hdW"; */
+"icw-K2-hdW.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar 1 aus der Liste.";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "jt7-Tc-n1f"; */
+"jt7-Tc-n1f.title" = "Bearbeiten";
+
+/* Class = "IBUILabel"; text = "6"; ObjectID = "kHU-Bi-UFL"; */
+"kHU-Bi-UFL.text" = "6";
+
+/* Class = "IBUILabel"; text = "Preview"; ObjectID = "kbu-NP-HaL"; */
+"kbu-NP-HaL.text" = "Vorschau";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "l2t-pB-tcG"; */
+"l2t-pB-tcG.title" = "Bearbeiten";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "lBa-z4-eJo"; */
+"lBa-z4-eJo.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "mUF-Hh-3b4"; */
+"mUF-Hh-3b4.normalTitle" = "•••";
+
+/* Class = "IBUILabel"; text = "8"; ObjectID = "oEg-y7-Pub"; */
+"oEg-y7-Pub.text" = "8";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar 3 from the list."; ObjectID = "oGs-Bi-XIj"; */
+"oGs-Bi-XIj.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar 3 aus der Liste.";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "pq4-gT-s9F"; */
+"pq4-gT-s9F.normalTitle" = "•••";
+
+/* Class = "IBUINavigationItem"; title = "PhotoBar"; ObjectID = "qKz-5C-r2T"; */
+"qKz-5C-r2T.title" = "PhotoBar";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "qeB-jE-oCg"; */
+"qeB-jE-oCg.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "r3K-qR-eie"; */
+"r3K-qR-eie.normalTitle" = "•••";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "rKk-5n-gCS"; */
+"rKk-5n-gCS.title" = "Bearbeiten";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "t3k-xn-5kd"; */
+"t3k-xn-5kd.title" = "Bearbeiten";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "tTm-dT-1FU"; */
+"tTm-dT-1FU.normalTitle" = "•••";
+
+/* Class = "IBUINavigationItem"; title = "Layout 5"; ObjectID = "tpb-LB-m2i"; */
+"tpb-LB-m2i.title" = "Layout 5";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "uLZ-ra-9oV"; */
+"uLZ-ra-9oV.normalTitle" = "•••";
+
+/* Class = "IBUIButton"; normalTitle = "•••"; ObjectID = "udJ-E8-ctD"; */
+"udJ-E8-ctD.normalTitle" = "•••";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "vKZ-WE-ZTq"; */
+"vKZ-WE-ZTq.title" = "Zurück";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "xk5-il-Cbb"; */
+"xk5-il-Cbb.title" = "Bearbeiten";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar 4 from the list."; ObjectID = "zh3-Ol-g9E"; */
+"zh3-Ol-g9E.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar 4 aus der Liste.";
+
+/* Class = "IBUILabel"; text = "Always use last photos from camera roll"; ObjectID = "rZX-da-Ul9"; */
+"rZX-da-Ul9.text" = "Immer die zuletzt zu den Aufnahmen hinzugefügten Fotos verwenden";
+
+/* Class = "IBUILabel"; text = "Pull down Notification Center, tap Edit and then select PhotoBar A from the list."; ObjectID = "yRf-Vk-dBD"; */
+"yRf-Vk-dBD.text" = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar A aus der Liste.";
+
+/* Class = "IBUIButton"; normalTitle = "Reset layout"; ObjectID = "4I4-fp-NfS"; */
+"4I4-fp-NfS.normalTitle" = "Layout zurücksetzen";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "3rS-JZ-GvH"; */
+"3rS-JZ-GvH.title" = "Bearbeiten";
+
+/* Class = IBUILabel"; text = "Custom layout"; ObjectID = "dVt-LD-lKL"; */
+"dVt-LD-lKL.text" = "Eigenes Layout";
+
+/* Class = IBUILabel"; text = "Custom layout"; ObjectID = "8F6-jN-PNW; */
+"8F6-jN-PNW.text" = "Eigenes Layout";
+
+/* Class = IBUILabel"; text = "Custom layout"; ObjectID = "zE4-MR-NQV"; */
+"zE4-MR-NQV.text" = "Eigenes Layout";

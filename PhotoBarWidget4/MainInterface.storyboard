@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vZy-ys-g0m">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Layout 4-->
+        <scene sceneID="ceS-xW-aOB">
+            <objects>
+                <viewController id="vZy-ys-g0m" userLabel="Layout 4" customClass="TodayViewControllerLayout4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4ek-AF-vc6"/>
+                        <viewControllerLayoutGuide type="bottom" id="3M7-Rw-2Nv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fLQ-aZ-RWn">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="240"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YhU-oh-fwo" userLabel="Image View 1">
+                                <rect key="frame" x="5" y="0.0" width="320" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YhU-oh-fwo" secondAttribute="height" multiplier="4:3" id="NQF-nJ-hBu"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pws-H9-4pG" userLabel="View 1">
+                                <rect key="frame" x="0.0" y="0.0" width="5" height="240"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mxw-vn-nAx" userLabel="View 2">
+                                <rect key="frame" x="325" y="0.0" width="5" height="240"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Mxw-vn-nAx" secondAttribute="trailing" id="CrN-iY-eE1"/>
+                            <constraint firstItem="Mxw-vn-nAx" firstAttribute="width" secondItem="Pws-H9-4pG" secondAttribute="width" id="EIe-Sg-Tt6"/>
+                            <constraint firstItem="3M7-Rw-2Nv" firstAttribute="top" secondItem="Mxw-vn-nAx" secondAttribute="bottom" id="Nka-r2-mwb"/>
+                            <constraint firstItem="Mxw-vn-nAx" firstAttribute="top" secondItem="4ek-AF-vc6" secondAttribute="bottom" id="Vek-sO-Lfi"/>
+                            <constraint firstItem="Mxw-vn-nAx" firstAttribute="leading" secondItem="YhU-oh-fwo" secondAttribute="trailing" id="adL-rZ-Ha9"/>
+                            <constraint firstItem="YhU-oh-fwo" firstAttribute="leading" secondItem="Pws-H9-4pG" secondAttribute="trailing" id="apR-gv-X3d"/>
+                            <constraint firstItem="Pws-H9-4pG" firstAttribute="top" secondItem="4ek-AF-vc6" secondAttribute="bottom" id="c6D-35-Eh1"/>
+                            <constraint firstItem="3M7-Rw-2Nv" firstAttribute="top" secondItem="YhU-oh-fwo" secondAttribute="bottom" id="dId-lV-VKH"/>
+                            <constraint firstItem="YhU-oh-fwo" firstAttribute="top" secondItem="4ek-AF-vc6" secondAttribute="bottom" id="dQ7-Lx-VLy"/>
+                            <constraint firstItem="Mxw-vn-nAx" firstAttribute="height" secondItem="Pws-H9-4pG" secondAttribute="height" id="quY-Vn-Y08"/>
+                            <constraint firstItem="Pws-H9-4pG" firstAttribute="leading" secondItem="fLQ-aZ-RWn" secondAttribute="leading" id="unN-Cg-dY8"/>
+                            <constraint firstItem="3M7-Rw-2Nv" firstAttribute="top" secondItem="Pws-H9-4pG" secondAttribute="bottom" id="xkF-JX-7QF"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="330" height="240"/>
+                    <connections>
+                        <outlet property="imageView1" destination="YhU-oh-fwo" id="sRk-HT-AaX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tkb-ct-nKR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="147" y="503"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

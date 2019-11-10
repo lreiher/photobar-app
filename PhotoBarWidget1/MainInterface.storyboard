@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9N6-qK-Tku">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Layout 1-->
+        <scene sceneID="5dJ-xJ-kko">
+            <objects>
+                <viewController id="9N6-qK-Tku" userLabel="Layout 1" customClass="TodayViewControllerLayout1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oNW-ER-Sw5"/>
+                        <viewControllerLayoutGuide type="bottom" id="fCZ-6i-2ao"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2bI-ed-5Jl">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="80"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="svF-bm-7xt" userLabel="Image View 1">
+                                <rect key="frame" x="5" y="0.0" width="320" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="svF-bm-7xt" secondAttribute="height" multiplier="4:1" id="5Lk-Qn-eJv"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KxW-xg-CPc" userLabel="View 1">
+                                <rect key="frame" x="0.0" y="0.0" width="5" height="80"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRe-mX-esP" userLabel="View 2">
+                                <rect key="frame" x="325" y="0.0" width="5" height="80"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="FRe-mX-esP" secondAttribute="trailing" id="98B-c5-qmv"/>
+                            <constraint firstItem="KxW-xg-CPc" firstAttribute="leading" secondItem="2bI-ed-5Jl" secondAttribute="leading" id="9dA-tI-JcK"/>
+                            <constraint firstItem="fCZ-6i-2ao" firstAttribute="top" secondItem="svF-bm-7xt" secondAttribute="bottom" id="DMR-dI-ZYT"/>
+                            <constraint firstAttribute="centerX" secondItem="svF-bm-7xt" secondAttribute="centerX" id="Eic-6j-PId"/>
+                            <constraint firstItem="svF-bm-7xt" firstAttribute="leading" secondItem="KxW-xg-CPc" secondAttribute="trailing" id="H4F-nU-z1l"/>
+                            <constraint firstItem="KxW-xg-CPc" firstAttribute="top" secondItem="2bI-ed-5Jl" secondAttribute="top" id="Lkt-OC-SBY"/>
+                            <constraint firstItem="KxW-xg-CPc" firstAttribute="height" secondItem="FRe-mX-esP" secondAttribute="height" id="Mi4-uF-bxU"/>
+                            <constraint firstItem="fCZ-6i-2ao" firstAttribute="top" secondItem="KxW-xg-CPc" secondAttribute="bottom" id="O72-0V-xvJ"/>
+                            <constraint firstItem="FRe-mX-esP" firstAttribute="leading" secondItem="svF-bm-7xt" secondAttribute="trailing" id="Pm5-yT-Ked"/>
+                            <constraint firstAttribute="centerY" secondItem="svF-bm-7xt" secondAttribute="centerY" id="SIG-oW-dF3"/>
+                            <constraint firstItem="fCZ-6i-2ao" firstAttribute="top" secondItem="FRe-mX-esP" secondAttribute="bottom" id="UCQ-2Y-iX7"/>
+                            <constraint firstItem="FRe-mX-esP" firstAttribute="top" secondItem="2bI-ed-5Jl" secondAttribute="top" id="a1f-6P-pGo"/>
+                            <constraint firstItem="KxW-xg-CPc" firstAttribute="width" secondItem="FRe-mX-esP" secondAttribute="width" id="cgo-AJ-LAc"/>
+                            <constraint firstItem="svF-bm-7xt" firstAttribute="top" secondItem="2bI-ed-5Jl" secondAttribute="top" id="dE7-W3-N8r"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="330" height="80"/>
+                    <connections>
+                        <outlet property="imageView1" destination="svF-bm-7xt" id="QTR-QJ-3FO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dp4-uN-sIM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="512" y="352"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

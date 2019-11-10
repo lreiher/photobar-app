@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  PhotoBar
+
+  Created by Lennart Reiher on 05.10.14.
+  Copyright (c) 2014 Lennart Reiher. All rights reserved.
+*/
+
+
+// Info-Button
+
+"Gravitational – my iOS-game" = "Gravitational – mein iOS-Spiel";
+"Contact" = "Kontakt";
+"Share" = "Teilen";
+"Rate PhotoBar" = "Bewerte PhotoBar";
+"Dismiss" = "Zurück";
+
+
+// Permission Check
+
+"Permission" = "Erlaubnis";
+"In order to fill these beautiful widgets with your own photos, you need to grant access to your photo library and the camera itself." = "Um diese Widgets mit deinen eigenen Fotos bestücken zu können musst du der App Zugang zu deinem Fotoarchiv und der Kamera gewähren.";
+"Continue" = "Weiter";
+
+
+// Update to 2.0 Naming Convention
+
+"Restore old photos?" = "Alte Fotos wiederherstellen?";
+"As you may have noticed, PhotoBar 2.0 ignored all photos you had added using a previous version. You now have the ability to either restore those photos from PhotoBar 1.x and override the new ones or only restore those where new ones are not set yet." = "Wie du vielleicht bemerkt hast, wurden alle deine alten Fotos von PhotoBar 2.0 ignoriert. Diese Fotos von PhotoBar 1.x kannst du nun entweder wiederherstellen und neue überschreiben oder nur die Fotos wiederherstellen, an deren Stelle sich noch keine neuen befinden.";
+"Restore without overwriting" = "Ohne Überschreiben wiederherstellen";
+"Restore and overwrite" = "Wiederherstellen und Überschreiben";
+"Do not restore" = "Nicht wiederherstellen";
+
+
+// Share-Template
+
+"Check out the PhotoBar widget on the AppStore!" = "Schau dir doch mal das PhotoBar Widget im AppStore an!";
+
+
+// Mail-View
+
+"I would really like any kind of feedback from you! Do not hesitate to contact me in order to report bugs, give me suggestions on improving PhotoBar or just say 'hi'!" = "Ich freue mich über jegliche Art von Rückmeldung. Zögere nicht, mich auf Fehler hinzuweisen, Verbesserungsvorschläge zu machen oder einfach nur 'hallo' zu sagen!";
+
+"Contact Inquiry PhotoBar" = "Kontaktanfrage PhotoBar";
+
+"Mail sent" = "Mail versendet";
+"Thank you for contacting me." = "Danke für das Feedback.";
+"Error" = "Error";
+"Your mail did not send properly." = "Die Mail konnte nicht verschickt werden.";
+
+
+// Tutorial
+
+"With PhotoBar you can personalize your Today-View with your own photos." = "Mit PhotoBar kannst du dir deine eigenen Fotos direkt in der Heute-Ansicht anzeigen lassen.";
+"You can choose from 9 predesigned Layouts or simply create up to 3 custom ones. All of them are waiting to be filled with your photos." = "Du hast die Auswahl zwischen 9 bereits gestalteten Layouts oder kannst bis zu 3 selbst erstellen.";
+"You will be able to both change height and number of photos of the custom layouts." = "Bei deinen eigenen Layouts kannst du sowohl Höhe als auch Anzahl der Fotos im Widget selbst festlegen.";
+"Adding your photos one by one is simple. Alternatively you can activate the switch and always use the last photos from your archive." = "Fotos einem Widget hinzufügen ist ganz einfach. Du kannst aber auch einfach den Schalter umlegen und immer die letzten Aufnahmen anzeigen lassen.";
+"You can even put more photos in the exact same slot of the layout. Everytime you pull down the Today-View PhotoBar will then randomly choose one of the available photos for that slot." = "Du kannst sogar mehrere Fotos an ein und dieselbe Stelle in einem Layout packen. Immer wenn du die Heute-Ansicht herunterziehst wählt PhotoBar dann zufällig eines der vorhanden Bilder für die bestimmte Stelle im Layout aus.";
+"Once you are ready to see your PhotoBar in action, simply tap 'Edit' in the Today-View and then add the layout you wish to display." = "Sobald du alles fertig eingestellt hast, tippe in der Heute-Ansicht auf 'Bearbeiten' und füge dann das passende Layout hinzu.";
+"Have fun using PhotoBar!" = "Viel Spaß mit PhotoBar!";
+
+
+// Foto-Optionen
+
+"Manage Photos in Frame" = "Fotos in Rahmen verwalten";
+"Add more Photos" = "Mehr Fotos hinzufügen";
+"Remove Photo" = "Foto entfernen";
+"Edit Existing Photo" = "Foto bearbeiten";
+"Take Photo" = "Foto aufnehmen";
+"Choose Existing Photo" = "Foto auswählen";
+"Cancel" = "Abbrechen";
+"Choose" = "Foto benutzen";
+
+
+// Edit-Done
+
+"Edit" = "Bearbeiten";
+"Done" = "Fertig";
+
+
+// Header
+
+"Always use last photos from camera roll" = "Immer die zuletzt zu den Aufnahmen hinzugefügten Fotos verwenden";
+"Choose height of custom PhotoBar" = "Höhe der benutzerdefinierten PhotoBar festlegen";
+"Choose number of images of custom PhotoBar" = "Anzahl der Bilder der benutzerdefinierten PhotoBar festlegen";
+
+
+// Bottom
+
+"Pull down Notification Center, tap Edit and then select PhotoBar A from the list." = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar A aus der Liste.";
+"Pull down Notification Center, tap Edit and then select PhotoBar B from the list." = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar B aus der Liste.";
+"Pull down Notification Center, tap Edit and then select PhotoBar C from the list." = "Ziehe die Nachrichtenzentrale herunter, tippe auf Bearbeiten und wähle PhotoBar C aus der Liste.";

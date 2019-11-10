@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  PhotoBar
+
+  Created by Lennart Reiher on 05.10.14.
+  Copyright (c) 2014 Lennart Reiher. All rights reserved.
+*/
+
+
+// Info-Button
+
+"Gravitational – my iOS-game" = "Gravitational – my iOS-game";
+"Contact" = "Contact";
+"Share" = "Share";
+"Rate PhotoBar" = "Rate PhotoBar";
+"Dismiss" = "Dismiss";
+
+
+// Permission Check
+
+"Permission" = "Permission";
+"In order to fill these beautiful widgets with your own photos, you need to grant access to your photo library and the camera itself." = "In order to fill these beautiful widgets with your own photos, you need to grant access to your photo library and the camera itself.";
+"Continue" = "Continue";
+
+
+// Update to 2.0 Naming Convention
+
+"Restore old photos?" = "Restore old photos?";
+"As you may have noticed, PhotoBar 2.0 ignored all photos you had added using a previous version. You now have the ability to either restore those photos from PhotoBar 1.x and override the new ones or only restore those where new ones are not set yet." = "As you may have noticed, PhotoBar 2.0 ignored all photos you had added using a previous version. You now have the ability to either restore those photos from PhotoBar 1.x and override the new ones or only restore those where new ones are not set yet.";
+"Restore without overwriting" = "Restore without overwriting";
+"Restore and overwrite" = "Restore and overwrite";
+"Do not restore" = "Do not restore";
+
+
+// Share-Template
+
+"Check out the PhotoBar widget on the AppStore!" = "Check out the PhotoBar widget on the AppStore!";
+
+
+// Mail-View
+
+"I would really like any kind of feedback from you! Do not hesitate to contact me in order to report bugs, give me suggestions on improving PhotoBar or just say 'hi'!" = "I would really like any kind of feedback from you! Do not hesitate to contact me in order to report bugs, give me suggestions on improving PhotoBar or just say 'hi'!";
+
+"Contact Inquiry PhotoBar" = "Contact Inquiry PhotoBar";
+
+"Mail sent" = "Mail sent";
+"Thank you for contacting me." = "Thank you for contacting me.";
+"Error" = "Error";
+"Your mail did not send properly." = "Your mail did not send properly.";
+
+
+// Tutorial
+
+"With PhotoBar you can personalize your Today-View with your own photos." = "With PhotoBar you can personalize your Today-View with your own photos.";
+"You can choose from 9 predesigned Layouts or simply create up to 3 custom ones. All of them are waiting to be filled with your photos." = "You can choose from 9 predesigned Layouts or simply create up to 3 custom ones. All of them are waiting to be filled with your photos.";
+"You will be able to both change height and number of photos of the custom layouts." = "You will be able to both change height and number of photos of the custom layouts.";
+"Adding your photos one by one is simple. Alternatively you can activate the switch and always use the last photos from your archive." = "Adding your photos one by one is simple. Alternatively you can activate the switch and always use the last photos from your archive.";
+"You can even put more photos in the exact same slot of the layout. Everytime you pull down the Today-View PhotoBar will then randomly choose one of the available photos for that slot." = "You can even put more photos in the exact same slot of the layout. Everytime you pull down the Today-View PhotoBar will then randomly choose one of the available photos for that slot.";
+"Once you are ready to see your PhotoBar in action, simply tap 'Edit' in the Today-View and then add the layout you wish to display." = "Once you are ready to see your PhotoBar in action, simply tap 'Edit' in the Today-View and then add the layout you wish to display.";
+"Have fun using PhotoBar!" = "Have fun using PhotoBar!";
+
+
+// Foto-Optionen
+
+"Manage Photos in Frame" = "Manage Photos in Frame";
+"Add more Photos" = "Add more Photos";
+"Remove Photo" = "Remove Photo";
+"Edit Existing Photo" = "Edit Existing Photo";
+"Take Photo" = "Take Photo";
+"Choose Existing Photo" = "Choose Existing Photo";
+"Cancel" = "Cancel";
+"Choose" = "Choose";
+
+
+// Edit-Done
+
+"Edit" = "Edit";
+"Done" = "Done";
+
+
+// Header
+
+"Always use last photos from camera roll" = "Always use last photos from camera roll";
+"Choose height of custom PhotoBar" = "Choose height of custom PhotoBar";
+"Choose number of images of custom PhotoBar" = "Choose number of images of custom PhotoBar";
+
+
+// Bottom
+
+"Pull down Notification Center, tap Edit and then select PhotoBar A from the list." = "Pull down Notification Center, tap Edit and then select PhotoBar A from the list.";
+"Pull down Notification Center, tap Edit and then select PhotoBar B from the list." = "Pull down Notification Center, tap Edit and then select PhotoBar B from the list.";
+"Pull down Notification Center, tap Edit and then select PhotoBar C from the list." = "Pull down Notification Center, tap Edit and then select PhotoBar C from the list.";

@@ -1,0 +1,2603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0F78DB19CC9601000EFCF6 /* ViewControllerLayout7.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F78DA19CC9601000EFCF6 /* ViewControllerLayout7.m */; };
+		DF2203CC19DC7D5700ED52BC /* ViewControllerLayout8.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2203CB19DC7D5700ED52BC /* ViewControllerLayout8.m */; };
+		DF24700C19CB0C7800094AAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24700B19CB0C7800094AAA /* main.m */; };
+		DF24700F19CB0C7800094AAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24700E19CB0C7800094AAA /* AppDelegate.m */; };
+		DF24701519CB0C7800094AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF24701319CB0C7800094AAA /* Main.storyboard */; };
+		DF24701719CB0C7800094AAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF24701619CB0C7800094AAA /* Images.xcassets */; };
+		DF24702619CB0C7900094AAA /* PhotoBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24702519CB0C7900094AAA /* PhotoBarTests.m */; };
+		DF24715919CB0FC000094AAA /* DZNPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24715819CB0FC000094AAA /* DZNPhotoPickerController.m */; };
+		DF24715C19CB107B00094AAA /* DZNPhotoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24715B19CB107B00094AAA /* DZNPhotoEditorViewController.m */; };
+		DF24715F19CB10B700094AAA /* DZNPhotoPickerControllerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24715E19CB10B700094AAA /* DZNPhotoPickerControllerConstants.m */; };
+		DF4EFD0A1A95ED48000CE270 /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DF4EFD0B1A95ED49000CE270 /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DF50341319CFAE3200F7AB36 /* ViewControllerLayout6.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50341219CFAE3200F7AB36 /* ViewControllerLayout6.m */; };
+		DF5FE5C81A0FFA8000431731 /* CustomActivityItems.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5FE5C71A0FFA8000431731 /* CustomActivityItems.m */; };
+		DF6648F319CC82E00086074E /* ViewControllerLayout2.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7E6EE19CC443F00F8FCBD /* ViewControllerLayout2.m */; };
+		DF714AB41A1A8F1B004206FD /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF714AB31A1A8F1B004206FD /* EditViewController.m */; };
+		DF72C6DB1A40EE8D008C9EBE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DF72C6E61A40EE8D008C9EBE /* PhotoBarWidgetCustom.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DF72C6DA1A40EE8D008C9EBE /* PhotoBarWidgetCustom.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF72C6F01A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72C6EF1A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.m */; };
+		DF72C6F11A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72C6EF1A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.m */; };
+		DF72C6F21A40F20C008C9EBE /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DF72C6F51A40F896008C9EBE /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72C6F41A40F896008C9EBE /* UIView+AutoLayout.m */; };
+		DF72C6F71A47373C008C9EBE /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72C6F41A40F896008C9EBE /* UIView+AutoLayout.m */; };
+		DF8ECD9D1A95DF8B0088DC20 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DF8ECDA81A95DF8B0088DC20 /* PhotoBarWidgetCustom2.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DF8ECD9C1A95DF8B0088DC20 /* PhotoBarWidgetCustom2.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF8ECDB21A95DFB60088DC20 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DF8ECDBD1A95DFB60088DC20 /* PhotoBarWidgetCustom3.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DF8ECDB11A95DFB60088DC20 /* PhotoBarWidgetCustom3.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF8ECDC21A95E0400088DC20 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72C6F41A40F896008C9EBE /* UIView+AutoLayout.m */; };
+		DF8ECDC31A95E0400088DC20 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72C6F41A40F896008C9EBE /* UIView+AutoLayout.m */; };
+		DF8ECDCE1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8ECDCD1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.m */; };
+		DF8ECDCF1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8ECDCD1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.m */; };
+		DF8ECDD21A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8ECDD11A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.m */; };
+		DF8ECDD31A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8ECDD11A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.m */; };
+		DF9346B619CE3E07006B5C2E /* ViewControllerLayout5.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9346B519CE3E07006B5C2E /* ViewControllerLayout5.m */; };
+		DFAA055019EAE5D2006FF35F /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAA054F19EAE5D2006FF35F /* iRate.m */; };
+		DFB9E89819E095B4006C776B /* ViewControllerLayout9.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB9E89719E095B4006C776B /* ViewControllerLayout9.m */; };
+		DFB9E8A219E0AA64006C776B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFB9E8A419E0AA64006C776B /* Localizable.strings */; };
+		DFC89EFD1A2893DD0071CC8F /* HeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC89EFC1A2893DD0071CC8F /* HeaderViewController.m */; };
+		DFC8CA4D19F3F00500F7E00B /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFC8CA4C19F3F00500F7E00B /* iRate.bundle */; };
+		DFD8ACD51A9BD7A400552D95 /* TutorialPageContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD8ACD41A9BD7A400552D95 /* TutorialPageContentController.m */; };
+		DFD8ACD81A9BDDD500552D95 /* TutorialPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD8ACD71A9BDDD500552D95 /* TutorialPageViewController.m */; };
+		DFDBBFF61A22307D009C57AF /* ViewControllerLayoutCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDBBFF51A22307D009C57AF /* ViewControllerLayoutCustom.m */; };
+		DFE2075B19D0F298008A492B /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE2075A19D0F298008A492B /* SelectionViewController.m */; };
+		DFE2076419D38356008A492B /* OldStyleNavigationControllerAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE2076319D38356008A492B /* OldStyleNavigationControllerAnimatedTransition.m */; };
+		DFE2076719D39465008A492B /* ViewControllerLayout4.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE2076619D39465008A492B /* ViewControllerLayout4.m */; };
+		DFE2079C19D4CCB2008A492B /* ViewControllerLayout1.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE2079B19D4CCB2008A492B /* ViewControllerLayout1.m */; };
+		DFE207BB19D8B13E008A492B /* ViewControllerLayout3.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE207BA19D8B13E008A492B /* ViewControllerLayout3.m */; };
+		DFE207C219D8D28D008A492B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE207C119D8D28D008A492B /* LaunchScreen.storyboard */; };
+		DFE425BC1A96AEFF0054E3E2 /* ViewControllerLayoutCustom2.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE425BB1A96AEFF0054E3E2 /* ViewControllerLayoutCustom2.m */; };
+		DFE425BF1A96AF0D0054E3E2 /* ViewControllerLayoutCustom3.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE425BE1A96AF0D0054E3E2 /* ViewControllerLayoutCustom3.m */; };
+		DFE9FA7119DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFE9FA7819DCC16900CE14CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DFE9FA8019DCC16900CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FA7F19DCC16900CE14CB /* MainInterface.storyboard */; };
+		DFE9FA8319DCC16900CE14CB /* PhotoBarWidget1.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFE9FA7719DCC16900CE14CB /* PhotoBarWidget1.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE9FA8F19DCC1DB00CE14CB /* TodayViewControllerLayout1.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA8C19DCC1DB00CE14CB /* TodayViewControllerLayout1.m */; };
+		DFE9FA9019DCC1DB00CE14CB /* TodayViewControllerLayout1.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA8C19DCC1DB00CE14CB /* TodayViewControllerLayout1.m */; };
+		DFE9FA9119DCC21D00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFE9FA9719DD697A00CE14CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DFE9FA9F19DD697A00CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FA9E19DD697A00CE14CB /* MainInterface.storyboard */; };
+		DFE9FAA219DD697A00CE14CB /* PhotoBarWidget2.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFE9FA9619DD697A00CE14CB /* PhotoBarWidget2.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE9FAAD19DD699800CE14CB /* TodayViewControllerLayout2.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FAAA19DD699800CE14CB /* TodayViewControllerLayout2.m */; };
+		DFE9FAAE19DD699800CE14CB /* TodayViewControllerLayout2.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FAAA19DD699800CE14CB /* TodayViewControllerLayout2.m */; };
+		DFE9FAB519DD6A1300CE14CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DFE9FABD19DD6A1300CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FABC19DD6A1300CE14CB /* MainInterface.storyboard */; };
+		DFE9FAC019DD6A1300CE14CB /* PhotoBarWidget3.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFE9FAB419DD6A1300CE14CB /* PhotoBarWidget3.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE9FACC19DD6A4100CE14CB /* TodayViewControllerLayout3.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FAC919DD6A4100CE14CB /* TodayViewControllerLayout3.m */; };
+		DFE9FACD19DD6A4100CE14CB /* TodayViewControllerLayout3.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FAC919DD6A4100CE14CB /* TodayViewControllerLayout3.m */; };
+		DFE9FAD319DD6A6100CE14CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DFE9FADB19DD6A6100CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FADA19DD6A6100CE14CB /* MainInterface.storyboard */; };
+		DFE9FADE19DD6A6100CE14CB /* PhotoBarWidget4.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFE9FAD219DD6A6100CE14CB /* PhotoBarWidget4.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE9FAEA19DD6A9500CE14CB /* TodayViewControllerLayout4.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FAE719DD6A9500CE14CB /* TodayViewControllerLayout4.m */; };
+		DFE9FAEB19DD6A9500CE14CB /* TodayViewControllerLayout4.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FAE719DD6A9500CE14CB /* TodayViewControllerLayout4.m */; };
+		DFE9FAF119DD6AAE00CE14CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DFE9FAF919DD6AAE00CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FAF819DD6AAE00CE14CB /* MainInterface.storyboard */; };
+		DFE9FAFC19DD6AAE00CE14CB /* PhotoBarWidget5.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFE9FAF019DD6AAE00CE14CB /* PhotoBarWidget5.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE9FB0819DD6AE400CE14CB /* TodayViewControllerLayout5.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB0519DD6AE400CE14CB /* TodayViewControllerLayout5.m */; };
+		DFE9FB0919DD6AE400CE14CB /* TodayViewControllerLayout5.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB0519DD6AE400CE14CB /* TodayViewControllerLayout5.m */; };
+		DFE9FB0F19DD6B0000CE14CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DFE9FB1719DD6B0000CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FB1619DD6B0000CE14CB /* MainInterface.storyboard */; };
+		DFE9FB1A19DD6B0000CE14CB /* PhotoBarWidget6.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFE9FB0E19DD6B0000CE14CB /* PhotoBarWidget6.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE9FB2619DD6B4300CE14CB /* TodayViewControllerLayout6.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB2319DD6B4300CE14CB /* TodayViewControllerLayout6.m */; };
+		DFE9FB2719DD6B4300CE14CB /* TodayViewControllerLayout6.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB2319DD6B4300CE14CB /* TodayViewControllerLayout6.m */; };
+		DFE9FB2D19DD6B6800CE14CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DFE9FB3519DD6B6800CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FB3419DD6B6800CE14CB /* MainInterface.storyboard */; };
+		DFE9FB3819DD6B6800CE14CB /* PhotoBarWidget7.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFE9FB2C19DD6B6800CE14CB /* PhotoBarWidget7.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE9FB4419DD6B9800CE14CB /* TodayViewControllerLayout7.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB4119DD6B9800CE14CB /* TodayViewControllerLayout7.m */; };
+		DFE9FB4519DD6B9800CE14CB /* TodayViewControllerLayout7.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB4119DD6B9800CE14CB /* TodayViewControllerLayout7.m */; };
+		DFE9FB4B19DD6BB500CE14CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DFE9FB5319DD6BB500CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FB5219DD6BB500CE14CB /* MainInterface.storyboard */; };
+		DFE9FB5619DD6BB500CE14CB /* PhotoBarWidget8.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFE9FB4A19DD6BB500CE14CB /* PhotoBarWidget8.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE9FB6219DD6BE100CE14CB /* TodayViewControllerLayout8.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB5F19DD6BE100CE14CB /* TodayViewControllerLayout8.m */; };
+		DFE9FB6319DD6BE100CE14CB /* TodayViewControllerLayout8.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB5F19DD6BE100CE14CB /* TodayViewControllerLayout8.m */; };
+		DFE9FB6419DD6BFA00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFE9FB6519DD6BFB00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFE9FB6619DD6BFC00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFE9FB6719DD6BFC00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFE9FB6819DD6BFD00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFE9FB6919DD6BFD00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFE9FB6A19DD6BFE00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFE9FB7019DD6E5400CE14CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24703519CB0CA900094AAA /* NotificationCenter.framework */; };
+		DFE9FB7819DD6E5500CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FB7719DD6E5500CE14CB /* MainInterface.storyboard */; };
+		DFE9FB7B19DD6E5500CE14CB /* PhotoBarWidget9.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFE9FB6F19DD6E5400CE14CB /* PhotoBarWidget9.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFE9FB8419DD6F7400CE14CB /* TodayViewControllerLayout9.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB8319DD6F7400CE14CB /* TodayViewControllerLayout9.m */; };
+		DFE9FB8519DD6F7400CE14CB /* TodayViewControllerLayout9.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FB8319DD6F7400CE14CB /* TodayViewControllerLayout9.m */; };
+		DFE9FB8619DD866F00CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FB3419DD6B6800CE14CB /* MainInterface.storyboard */; };
+		DFE9FB8719DD867400CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FB5219DD6BB500CE14CB /* MainInterface.storyboard */; };
+		DFE9FB8819DD868400CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FB1619DD6B0000CE14CB /* MainInterface.storyboard */; };
+		DFE9FB8919DD868900CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FAF819DD6AAE00CE14CB /* MainInterface.storyboard */; };
+		DFE9FB8A19DD869000CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FADA19DD6A6100CE14CB /* MainInterface.storyboard */; };
+		DFE9FB8B19DD869600CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FABC19DD6A1300CE14CB /* MainInterface.storyboard */; };
+		DFE9FB8C19DD869D00CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FA9E19DD697A00CE14CB /* MainInterface.storyboard */; };
+		DFE9FB8D19DD86A200CE14CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE9FA7F19DCC16900CE14CB /* MainInterface.storyboard */; };
+		DFE9FB8E19DD877700CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */; };
+		DFEDAAA519CCFE2B00668CFD /* ViewControllerLayoutAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEDAAA419CCFE2B00668CFD /* ViewControllerLayoutAbstract.m */; };
+		DFF5408F1A93E3AD00CBA462 /* BottomButtonViewControllerCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF5408E1A93E3AD00CBA462 /* BottomButtonViewControllerCustom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF24702019CB0C7900094AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF24700519CB0C7800094AAA;
+			remoteInfo = PhotoBar;
+		};
+		DF72C6E41A40EE8D008C9EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF72C6D91A40EE8D008C9EBE;
+			remoteInfo = PhotoBarWidgetCustom;
+		};
+		DF8ECDA61A95DF8B0088DC20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8ECD9B1A95DF8B0088DC20;
+			remoteInfo = PhotoBarWidgetCustom2;
+		};
+		DF8ECDBB1A95DFB60088DC20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8ECDB01A95DFB60088DC20;
+			remoteInfo = PhotoBarWidgetCustom3;
+		};
+		DFE9FA8119DCC16900CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FA7619DCC16900CE14CB;
+			remoteInfo = PhotoBarWidget1;
+		};
+		DFE9FA8419DCC16900CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FA7619DCC16900CE14CB;
+			remoteInfo = PhotoBarWidget1;
+		};
+		DFE9FAA019DD697A00CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FA9519DD697A00CE14CB;
+			remoteInfo = PhotoBarWidget2;
+		};
+		DFE9FAA319DD697A00CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FA9519DD697A00CE14CB;
+			remoteInfo = PhotoBarWidget2;
+		};
+		DFE9FABE19DD6A1300CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FAB319DD6A1300CE14CB;
+			remoteInfo = PhotoBarWidget3;
+		};
+		DFE9FAC119DD6A1300CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FAB319DD6A1300CE14CB;
+			remoteInfo = PhotoBarWidget3;
+		};
+		DFE9FADC19DD6A6100CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FAD119DD6A6100CE14CB;
+			remoteInfo = PhotoBarWidget4;
+		};
+		DFE9FADF19DD6A6100CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FAD119DD6A6100CE14CB;
+			remoteInfo = PhotoBarWidget4;
+		};
+		DFE9FAFA19DD6AAE00CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FAEF19DD6AAE00CE14CB;
+			remoteInfo = PhotoBarWidget5;
+		};
+		DFE9FAFD19DD6AAE00CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FAEF19DD6AAE00CE14CB;
+			remoteInfo = PhotoBarWidget5;
+		};
+		DFE9FB1819DD6B0000CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FB0D19DD6B0000CE14CB;
+			remoteInfo = PhotoBarWidget6;
+		};
+		DFE9FB1B19DD6B0000CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FB0D19DD6B0000CE14CB;
+			remoteInfo = PhotoBarWidget6;
+		};
+		DFE9FB3619DD6B6800CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FB2B19DD6B6800CE14CB;
+			remoteInfo = PhotoBarWidget7;
+		};
+		DFE9FB3919DD6B6800CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FB2B19DD6B6800CE14CB;
+			remoteInfo = PhotoBarWidget7;
+		};
+		DFE9FB5419DD6BB500CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FB4919DD6BB500CE14CB;
+			remoteInfo = PhotoBarWidget8;
+		};
+		DFE9FB5719DD6BB500CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FB4919DD6BB500CE14CB;
+			remoteInfo = PhotoBarWidget8;
+		};
+		DFE9FB7919DD6E5500CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FB6E19DD6E5400CE14CB;
+			remoteInfo = PhotoBarWidget9;
+		};
+		DFE9FB7C19DD6E5500CE14CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF246FFE19CB0C7800094AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE9FB6E19DD6E5400CE14CB;
+			remoteInfo = PhotoBarWidget9;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		014F1AC1217544C70054AE43 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF24704719CB0CA900094AAA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DF72C6E61A40EE8D008C9EBE /* PhotoBarWidgetCustom.appex in Embed App Extensions */,
+				DFE9FB1A19DD6B0000CE14CB /* PhotoBarWidget6.appex in Embed App Extensions */,
+				DFE9FADE19DD6A6100CE14CB /* PhotoBarWidget4.appex in Embed App Extensions */,
+				DFE9FAA219DD697A00CE14CB /* PhotoBarWidget2.appex in Embed App Extensions */,
+				DF8ECDA81A95DF8B0088DC20 /* PhotoBarWidgetCustom2.appex in Embed App Extensions */,
+				DFE9FAC019DD6A1300CE14CB /* PhotoBarWidget3.appex in Embed App Extensions */,
+				DFE9FB7B19DD6E5500CE14CB /* PhotoBarWidget9.appex in Embed App Extensions */,
+				DFE9FB5619DD6BB500CE14CB /* PhotoBarWidget8.appex in Embed App Extensions */,
+				DF8ECDBD1A95DFB60088DC20 /* PhotoBarWidgetCustom3.appex in Embed App Extensions */,
+				DFE9FA8319DCC16900CE14CB /* PhotoBarWidget1.appex in Embed App Extensions */,
+				DFE9FAFC19DD6AAE00CE14CB /* PhotoBarWidget5.appex in Embed App Extensions */,
+				DFE9FB3819DD6B6800CE14CB /* PhotoBarWidget7.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF01A05F19DCBD5400B61DB2 /* PhotoBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBar.entitlements; sourceTree = "<group>"; };
+		DF0F78D919CC9601000EFCF6 /* ViewControllerLayout7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayout7.h; sourceTree = "<group>"; };
+		DF0F78DA19CC9601000EFCF6 /* ViewControllerLayout7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayout7.m; sourceTree = "<group>"; };
+		DF13537119E5E279005481F9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		DF2203CA19DC7D5700ED52BC /* ViewControllerLayout8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayout8.h; sourceTree = "<group>"; };
+		DF2203CB19DC7D5700ED52BC /* ViewControllerLayout8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayout8.m; sourceTree = "<group>"; };
+		DF24700619CB0C7800094AAA /* PhotoBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF24700A19CB0C7800094AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF24700B19CB0C7800094AAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF24700D19CB0C7800094AAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF24700E19CB0C7800094AAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF24701419CB0C7800094AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF24701619CB0C7800094AAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF24701F19CB0C7900094AAA /* PhotoBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF24702419CB0C7900094AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF24702519CB0C7900094AAA /* PhotoBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBarTests.m; sourceTree = "<group>"; };
+		DF24703519CB0CA900094AAA /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		DF24715719CB0FC000094AAA /* DZNPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNPhotoPickerController.h; sourceTree = "<group>"; };
+		DF24715819CB0FC000094AAA /* DZNPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNPhotoPickerController.m; sourceTree = "<group>"; };
+		DF24715A19CB107B00094AAA /* DZNPhotoEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNPhotoEditorViewController.h; sourceTree = "<group>"; };
+		DF24715B19CB107B00094AAA /* DZNPhotoEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNPhotoEditorViewController.m; sourceTree = "<group>"; };
+		DF24715D19CB10B700094AAA /* DZNPhotoPickerControllerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNPhotoPickerControllerConstants.h; sourceTree = "<group>"; };
+		DF24715E19CB10B700094AAA /* DZNPhotoPickerControllerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNPhotoPickerControllerConstants.m; sourceTree = "<group>"; };
+		DF50341119CFAE3200F7AB36 /* ViewControllerLayout6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayout6.h; sourceTree = "<group>"; };
+		DF50341219CFAE3200F7AB36 /* ViewControllerLayout6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayout6.m; sourceTree = "<group>"; };
+		DF5FE5C61A0FFA8000431731 /* CustomActivityItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActivityItems.h; sourceTree = "<group>"; };
+		DF5FE5C71A0FFA8000431731 /* CustomActivityItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActivityItems.m; sourceTree = "<group>"; };
+		DF714AB21A1A8F1B004206FD /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		DF714AB31A1A8F1B004206FD /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		DF72C6DA1A40EE8D008C9EBE /* PhotoBarWidgetCustom.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidgetCustom.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF72C6DE1A40EE8D008C9EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF72C6EE1A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayoutCustom.h; sourceTree = "<group>"; };
+		DF72C6EF1A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayoutCustom.m; sourceTree = "<group>"; };
+		DF72C6F31A40F896008C9EBE /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		DF72C6F41A40F896008C9EBE /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		DF72C6F61A473285008C9EBE /* PhotoBarWidgetCustom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidgetCustom.entitlements; sourceTree = "<group>"; };
+		DF8ECD9C1A95DF8B0088DC20 /* PhotoBarWidgetCustom2.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidgetCustom2.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8ECDA01A95DF8B0088DC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8ECDAC1A95DF930088DC20 /* PhotoBarWidgetCustom2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidgetCustom2.entitlements; sourceTree = "<group>"; };
+		DF8ECDB11A95DFB60088DC20 /* PhotoBarWidgetCustom3.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidgetCustom3.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8ECDB51A95DFB60088DC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8ECDC11A95DFBC0088DC20 /* PhotoBarWidgetCustom3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidgetCustom3.entitlements; sourceTree = "<group>"; };
+		DF8ECDCC1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayoutCustom2.h; sourceTree = "<group>"; };
+		DF8ECDCD1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayoutCustom2.m; sourceTree = "<group>"; };
+		DF8ECDD01A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayoutCustom3.h; sourceTree = "<group>"; };
+		DF8ECDD11A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayoutCustom3.m; sourceTree = "<group>"; };
+		DF9346B419CE3E07006B5C2E /* ViewControllerLayout5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayout5.h; sourceTree = "<group>"; };
+		DF9346B519CE3E07006B5C2E /* ViewControllerLayout5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayout5.m; sourceTree = "<group>"; };
+		DFAA054E19EAE5D2006FF35F /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		DFAA054F19EAE5D2006FF35F /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		DFB9E89619E095B4006C776B /* ViewControllerLayout9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayout9.h; sourceTree = "<group>"; };
+		DFB9E89719E095B4006C776B /* ViewControllerLayout9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayout9.m; sourceTree = "<group>"; };
+		DFB9E8A319E0AA64006C776B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DFB9E8A519E0AA67006C776B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DFC89EFB1A2893DC0071CC8F /* HeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderViewController.h; sourceTree = "<group>"; };
+		DFC89EFC1A2893DD0071CC8F /* HeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderViewController.m; sourceTree = "<group>"; };
+		DFC8CA4C19F3F00500F7E00B /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
+		DFD7E6ED19CC443F00F8FCBD /* ViewControllerLayout2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayout2.h; sourceTree = "<group>"; };
+		DFD7E6EE19CC443F00F8FCBD /* ViewControllerLayout2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayout2.m; sourceTree = "<group>"; };
+		DFD8ACD31A9BD7A400552D95 /* TutorialPageContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialPageContentController.h; sourceTree = "<group>"; };
+		DFD8ACD41A9BD7A400552D95 /* TutorialPageContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialPageContentController.m; sourceTree = "<group>"; };
+		DFD8ACD61A9BDDD500552D95 /* TutorialPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialPageViewController.h; sourceTree = "<group>"; };
+		DFD8ACD71A9BDDD500552D95 /* TutorialPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialPageViewController.m; sourceTree = "<group>"; };
+		DFDBBFF41A22307D009C57AF /* ViewControllerLayoutCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayoutCustom.h; sourceTree = "<group>"; };
+		DFDBBFF51A22307D009C57AF /* ViewControllerLayoutCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayoutCustom.m; sourceTree = "<group>"; };
+		DFDF99081A9D46F200EDC32A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		DFDF99091A9D46F200EDC32A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DFE2075919D0F298008A492B /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		DFE2075A19D0F298008A492B /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		DFE2076219D38356008A492B /* OldStyleNavigationControllerAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldStyleNavigationControllerAnimatedTransition.h; sourceTree = "<group>"; };
+		DFE2076319D38356008A492B /* OldStyleNavigationControllerAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldStyleNavigationControllerAnimatedTransition.m; sourceTree = "<group>"; };
+		DFE2076519D39465008A492B /* ViewControllerLayout4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayout4.h; sourceTree = "<group>"; };
+		DFE2076619D39465008A492B /* ViewControllerLayout4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayout4.m; sourceTree = "<group>"; };
+		DFE2079A19D4CCB2008A492B /* ViewControllerLayout1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayout1.h; sourceTree = "<group>"; };
+		DFE2079B19D4CCB2008A492B /* ViewControllerLayout1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayout1.m; sourceTree = "<group>"; };
+		DFE207B919D8B13E008A492B /* ViewControllerLayout3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayout3.h; sourceTree = "<group>"; };
+		DFE207BA19D8B13E008A492B /* ViewControllerLayout3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayout3.m; sourceTree = "<group>"; };
+		DFE207C119D8D28D008A492B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFE425BA1A96AEFF0054E3E2 /* ViewControllerLayoutCustom2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayoutCustom2.h; sourceTree = "<group>"; };
+		DFE425BB1A96AEFF0054E3E2 /* ViewControllerLayoutCustom2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayoutCustom2.m; sourceTree = "<group>"; };
+		DFE425BD1A96AF0D0054E3E2 /* ViewControllerLayoutCustom3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayoutCustom3.h; sourceTree = "<group>"; };
+		DFE425BE1A96AF0D0054E3E2 /* ViewControllerLayoutCustom3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayoutCustom3.m; sourceTree = "<group>"; };
+		DFE9FA6F19DCC01400CE14CB /* TodayViewControllerLayoutAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayoutAbstract.h; sourceTree = "<group>"; };
+		DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayoutAbstract.m; sourceTree = "<group>"; };
+		DFE9FA7719DCC16900CE14CB /* PhotoBarWidget1.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidget1.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE9FA7B19DCC16900CE14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE9FA7F19DCC16900CE14CB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DFE9FA8919DCC16F00CE14CB /* PhotoBarWidget1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidget1.entitlements; sourceTree = "<group>"; };
+		DFE9FA8B19DCC1DB00CE14CB /* TodayViewControllerLayout1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayout1.h; sourceTree = "<group>"; };
+		DFE9FA8C19DCC1DB00CE14CB /* TodayViewControllerLayout1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayout1.m; sourceTree = "<group>"; };
+		DFE9FA9619DD697A00CE14CB /* PhotoBarWidget2.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidget2.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE9FA9A19DD697A00CE14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE9FA9E19DD697A00CE14CB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DFE9FAA919DD699800CE14CB /* TodayViewControllerLayout2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayout2.h; sourceTree = "<group>"; };
+		DFE9FAAA19DD699800CE14CB /* TodayViewControllerLayout2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayout2.m; sourceTree = "<group>"; };
+		DFE9FAAF19DD69DF00CE14CB /* PhotoBarWidget2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidget2.entitlements; sourceTree = "<group>"; };
+		DFE9FAB419DD6A1300CE14CB /* PhotoBarWidget3.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidget3.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE9FAB819DD6A1300CE14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE9FABC19DD6A1300CE14CB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DFE9FAC619DD6A1B00CE14CB /* PhotoBarWidget3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidget3.entitlements; sourceTree = "<group>"; };
+		DFE9FAC819DD6A4100CE14CB /* TodayViewControllerLayout3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayout3.h; sourceTree = "<group>"; };
+		DFE9FAC919DD6A4100CE14CB /* TodayViewControllerLayout3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayout3.m; sourceTree = "<group>"; };
+		DFE9FAD219DD6A6100CE14CB /* PhotoBarWidget4.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidget4.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE9FAD619DD6A6100CE14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE9FADA19DD6A6100CE14CB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DFE9FAE419DD6A6B00CE14CB /* PhotoBarWidget4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidget4.entitlements; sourceTree = "<group>"; };
+		DFE9FAE619DD6A9500CE14CB /* TodayViewControllerLayout4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayout4.h; sourceTree = "<group>"; };
+		DFE9FAE719DD6A9500CE14CB /* TodayViewControllerLayout4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayout4.m; sourceTree = "<group>"; };
+		DFE9FAF019DD6AAE00CE14CB /* PhotoBarWidget5.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidget5.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE9FAF419DD6AAE00CE14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE9FAF819DD6AAE00CE14CB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DFE9FB0219DD6ABC00CE14CB /* PhotoBarWidget5.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidget5.entitlements; sourceTree = "<group>"; };
+		DFE9FB0419DD6AE400CE14CB /* TodayViewControllerLayout5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayout5.h; sourceTree = "<group>"; };
+		DFE9FB0519DD6AE400CE14CB /* TodayViewControllerLayout5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayout5.m; sourceTree = "<group>"; };
+		DFE9FB0E19DD6B0000CE14CB /* PhotoBarWidget6.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidget6.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE9FB1219DD6B0000CE14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE9FB1619DD6B0000CE14CB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DFE9FB2019DD6B1000CE14CB /* PhotoBarWidget6.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidget6.entitlements; sourceTree = "<group>"; };
+		DFE9FB2219DD6B4300CE14CB /* TodayViewControllerLayout6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayout6.h; sourceTree = "<group>"; };
+		DFE9FB2319DD6B4300CE14CB /* TodayViewControllerLayout6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayout6.m; sourceTree = "<group>"; };
+		DFE9FB2C19DD6B6800CE14CB /* PhotoBarWidget7.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidget7.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE9FB3019DD6B6800CE14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE9FB3419DD6B6800CE14CB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DFE9FB3E19DD6B7A00CE14CB /* PhotoBarWidget7.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidget7.entitlements; sourceTree = "<group>"; };
+		DFE9FB4019DD6B9800CE14CB /* TodayViewControllerLayout7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayout7.h; sourceTree = "<group>"; };
+		DFE9FB4119DD6B9800CE14CB /* TodayViewControllerLayout7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayout7.m; sourceTree = "<group>"; };
+		DFE9FB4A19DD6BB500CE14CB /* PhotoBarWidget8.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidget8.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE9FB4E19DD6BB500CE14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE9FB5219DD6BB500CE14CB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DFE9FB5C19DD6BC600CE14CB /* PhotoBarWidget8.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidget8.entitlements; sourceTree = "<group>"; };
+		DFE9FB5E19DD6BE100CE14CB /* TodayViewControllerLayout8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayout8.h; sourceTree = "<group>"; };
+		DFE9FB5F19DD6BE100CE14CB /* TodayViewControllerLayout8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayout8.m; sourceTree = "<group>"; };
+		DFE9FB6F19DD6E5400CE14CB /* PhotoBarWidget9.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PhotoBarWidget9.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE9FB7319DD6E5500CE14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE9FB7719DD6E5500CE14CB /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DFE9FB8119DD6E6700CE14CB /* PhotoBarWidget9.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoBarWidget9.entitlements; sourceTree = "<group>"; };
+		DFE9FB8219DD6F7400CE14CB /* TodayViewControllerLayout9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewControllerLayout9.h; sourceTree = "<group>"; };
+		DFE9FB8319DD6F7400CE14CB /* TodayViewControllerLayout9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewControllerLayout9.m; sourceTree = "<group>"; };
+		DFEDAAA319CCFE2B00668CFD /* ViewControllerLayoutAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLayoutAbstract.h; sourceTree = "<group>"; };
+		DFEDAAA419CCFE2B00668CFD /* ViewControllerLayoutAbstract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLayoutAbstract.m; sourceTree = "<group>"; };
+		DFF5408D1A93E3AD00CBA462 /* BottomButtonViewControllerCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BottomButtonViewControllerCustom.h; path = PhotoBar/BottomButtonViewControllerCustom.h; sourceTree = SOURCE_ROOT; };
+		DFF5408E1A93E3AD00CBA462 /* BottomButtonViewControllerCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BottomButtonViewControllerCustom.m; path = PhotoBar/BottomButtonViewControllerCustom.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF24700319CB0C7800094AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF24701C19CB0C7900094AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF72C6D71A40EE8D008C9EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72C6DB1A40EE8D008C9EBE /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8ECD991A95DF8B0088DC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8ECD9D1A95DF8B0088DC20 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8ECDAE1A95DFB60088DC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8ECDB21A95DFB60088DC20 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FA7419DCC16900CE14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FA7819DCC16900CE14CB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FA9319DD697A00CE14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FA9719DD697A00CE14CB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FAB119DD6A1300CE14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FAB519DD6A1300CE14CB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FACF19DD6A6100CE14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FAD319DD6A6100CE14CB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FAED19DD6AAE00CE14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FAF119DD6AAE00CE14CB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB0B19DD6B0000CE14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB0F19DD6B0000CE14CB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB2919DD6B6800CE14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB2D19DD6B6800CE14CB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB4719DD6BB500CE14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB4B19DD6BB500CE14CB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB6C19DD6E5400CE14CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB7019DD6E5400CE14CB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF01A06419DCBE4B00B61DB2 /* PhotoBarWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FA6F19DCC01400CE14CB /* TodayViewControllerLayoutAbstract.h */,
+				DFE9FA7019DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m */,
+				DFE9FA7919DCC16900CE14CB /* PhotoBarWidget1 */,
+				DFE9FA9819DD697A00CE14CB /* PhotoBarWidget2 */,
+				DFE9FAB619DD6A1300CE14CB /* PhotoBarWidget3 */,
+				DFE9FAD419DD6A6100CE14CB /* PhotoBarWidget4 */,
+				DFE9FAF219DD6AAE00CE14CB /* PhotoBarWidget5 */,
+				DFE9FB1019DD6B0000CE14CB /* PhotoBarWidget6 */,
+				DFE9FB2E19DD6B6800CE14CB /* PhotoBarWidget7 */,
+				DFE9FB4C19DD6BB500CE14CB /* PhotoBarWidget8 */,
+				DFE9FB7119DD6E5500CE14CB /* PhotoBarWidget9 */,
+				DF72C6DC1A40EE8D008C9EBE /* PhotoBarWidgetCustom */,
+				DF8ECD9E1A95DF8B0088DC20 /* PhotoBarWidgetCustom2 */,
+				DF8ECDB31A95DFB60088DC20 /* PhotoBarWidgetCustom3 */,
+			);
+			name = PhotoBarWidgets;
+			sourceTree = "<group>";
+		};
+		DF246FFD19CB0C7800094AAA = {
+			isa = PBXGroup;
+			children = (
+				DF24700819CB0C7800094AAA /* PhotoBar */,
+				DF01A06419DCBE4B00B61DB2 /* PhotoBarWidgets */,
+				DF24702219CB0C7900094AAA /* PhotoBarTests */,
+				DF24703419CB0CA900094AAA /* Frameworks */,
+				DF24700719CB0C7800094AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF24700719CB0C7800094AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF24700619CB0C7800094AAA /* PhotoBar.app */,
+				DF24701F19CB0C7900094AAA /* PhotoBarTests.xctest */,
+				DFE9FA7719DCC16900CE14CB /* PhotoBarWidget1.appex */,
+				DFE9FA9619DD697A00CE14CB /* PhotoBarWidget2.appex */,
+				DFE9FAB419DD6A1300CE14CB /* PhotoBarWidget3.appex */,
+				DFE9FAD219DD6A6100CE14CB /* PhotoBarWidget4.appex */,
+				DFE9FAF019DD6AAE00CE14CB /* PhotoBarWidget5.appex */,
+				DFE9FB0E19DD6B0000CE14CB /* PhotoBarWidget6.appex */,
+				DFE9FB2C19DD6B6800CE14CB /* PhotoBarWidget7.appex */,
+				DFE9FB4A19DD6BB500CE14CB /* PhotoBarWidget8.appex */,
+				DFE9FB6F19DD6E5400CE14CB /* PhotoBarWidget9.appex */,
+				DF72C6DA1A40EE8D008C9EBE /* PhotoBarWidgetCustom.appex */,
+				DF8ECD9C1A95DF8B0088DC20 /* PhotoBarWidgetCustom2.appex */,
+				DF8ECDB11A95DFB60088DC20 /* PhotoBarWidgetCustom3.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF24700819CB0C7800094AAA /* PhotoBar */ = {
+			isa = PBXGroup;
+			children = (
+				DF01A05F19DCBD5400B61DB2 /* PhotoBar.entitlements */,
+				DF24700D19CB0C7800094AAA /* AppDelegate.h */,
+				DF24700E19CB0C7800094AAA /* AppDelegate.m */,
+				DFE2075919D0F298008A492B /* SelectionViewController.h */,
+				DFE2075A19D0F298008A492B /* SelectionViewController.m */,
+				DFD8ACD61A9BDDD500552D95 /* TutorialPageViewController.h */,
+				DFD8ACD71A9BDDD500552D95 /* TutorialPageViewController.m */,
+				DFD8ACD31A9BD7A400552D95 /* TutorialPageContentController.h */,
+				DFD8ACD41A9BD7A400552D95 /* TutorialPageContentController.m */,
+				DF714AB21A1A8F1B004206FD /* EditViewController.h */,
+				DF714AB31A1A8F1B004206FD /* EditViewController.m */,
+				DFC89EFB1A2893DC0071CC8F /* HeaderViewController.h */,
+				DFC89EFC1A2893DD0071CC8F /* HeaderViewController.m */,
+				DFF5408D1A93E3AD00CBA462 /* BottomButtonViewControllerCustom.h */,
+				DFF5408E1A93E3AD00CBA462 /* BottomButtonViewControllerCustom.m */,
+				DFEDAAA319CCFE2B00668CFD /* ViewControllerLayoutAbstract.h */,
+				DFEDAAA419CCFE2B00668CFD /* ViewControllerLayoutAbstract.m */,
+				DFE2079A19D4CCB2008A492B /* ViewControllerLayout1.h */,
+				DFE2079B19D4CCB2008A492B /* ViewControllerLayout1.m */,
+				DFD7E6ED19CC443F00F8FCBD /* ViewControllerLayout2.h */,
+				DFD7E6EE19CC443F00F8FCBD /* ViewControllerLayout2.m */,
+				DFE207B919D8B13E008A492B /* ViewControllerLayout3.h */,
+				DFE207BA19D8B13E008A492B /* ViewControllerLayout3.m */,
+				DFE2076519D39465008A492B /* ViewControllerLayout4.h */,
+				DFE2076619D39465008A492B /* ViewControllerLayout4.m */,
+				DF9346B419CE3E07006B5C2E /* ViewControllerLayout5.h */,
+				DF9346B519CE3E07006B5C2E /* ViewControllerLayout5.m */,
+				DF50341119CFAE3200F7AB36 /* ViewControllerLayout6.h */,
+				DF50341219CFAE3200F7AB36 /* ViewControllerLayout6.m */,
+				DF0F78D919CC9601000EFCF6 /* ViewControllerLayout7.h */,
+				DF0F78DA19CC9601000EFCF6 /* ViewControllerLayout7.m */,
+				DF2203CA19DC7D5700ED52BC /* ViewControllerLayout8.h */,
+				DF2203CB19DC7D5700ED52BC /* ViewControllerLayout8.m */,
+				DFB9E89619E095B4006C776B /* ViewControllerLayout9.h */,
+				DFB9E89719E095B4006C776B /* ViewControllerLayout9.m */,
+				DFDBBFF41A22307D009C57AF /* ViewControllerLayoutCustom.h */,
+				DFDBBFF51A22307D009C57AF /* ViewControllerLayoutCustom.m */,
+				DFE425BA1A96AEFF0054E3E2 /* ViewControllerLayoutCustom2.h */,
+				DFE425BB1A96AEFF0054E3E2 /* ViewControllerLayoutCustom2.m */,
+				DFE425BD1A96AF0D0054E3E2 /* ViewControllerLayoutCustom3.h */,
+				DFE425BE1A96AF0D0054E3E2 /* ViewControllerLayoutCustom3.m */,
+				DF24701319CB0C7800094AAA /* Main.storyboard */,
+				DF24700919CB0C7800094AAA /* Supporting Files */,
+			);
+			path = PhotoBar;
+			sourceTree = "<group>";
+		};
+		DF24700919CB0C7800094AAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF24700A19CB0C7800094AAA /* Info.plist */,
+				DF24700B19CB0C7800094AAA /* main.m */,
+				DFE207C119D8D28D008A492B /* LaunchScreen.storyboard */,
+				DF24701619CB0C7800094AAA /* Images.xcassets */,
+				DFB9E8A419E0AA64006C776B /* Localizable.strings */,
+				DF5FE5C91A0FFAC000431731 /* OldStyleNavigationTransition */,
+				DF5FE5CA1A0FFAD100431731 /* CustomActivityItems */,
+				DF5FE5CB1A0FFADC00431731 /* iRate */,
+				DF24704A19CB0DED00094AAA /* DZNPhotoPickerController */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF24702219CB0C7900094AAA /* PhotoBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF24702519CB0C7900094AAA /* PhotoBarTests.m */,
+				DF24702319CB0C7900094AAA /* Supporting Files */,
+			);
+			path = PhotoBarTests;
+			sourceTree = "<group>";
+		};
+		DF24702319CB0C7900094AAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF24702419CB0C7900094AAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF24703419CB0CA900094AAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF24703519CB0CA900094AAA /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF24704A19CB0DED00094AAA /* DZNPhotoPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				DF24715719CB0FC000094AAA /* DZNPhotoPickerController.h */,
+				DF24715819CB0FC000094AAA /* DZNPhotoPickerController.m */,
+				DF24715A19CB107B00094AAA /* DZNPhotoEditorViewController.h */,
+				DF24715B19CB107B00094AAA /* DZNPhotoEditorViewController.m */,
+				DF24715D19CB10B700094AAA /* DZNPhotoPickerControllerConstants.h */,
+				DF24715E19CB10B700094AAA /* DZNPhotoPickerControllerConstants.m */,
+			);
+			name = DZNPhotoPickerController;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DF5FE5C91A0FFAC000431731 /* OldStyleNavigationTransition */ = {
+			isa = PBXGroup;
+			children = (
+				DFE2076219D38356008A492B /* OldStyleNavigationControllerAnimatedTransition.h */,
+				DFE2076319D38356008A492B /* OldStyleNavigationControllerAnimatedTransition.m */,
+			);
+			name = OldStyleNavigationTransition;
+			sourceTree = "<group>";
+		};
+		DF5FE5CA1A0FFAD100431731 /* CustomActivityItems */ = {
+			isa = PBXGroup;
+			children = (
+				DF5FE5C61A0FFA8000431731 /* CustomActivityItems.h */,
+				DF5FE5C71A0FFA8000431731 /* CustomActivityItems.m */,
+			);
+			name = CustomActivityItems;
+			sourceTree = "<group>";
+		};
+		DF5FE5CB1A0FFADC00431731 /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				DFC8CA4C19F3F00500F7E00B /* iRate.bundle */,
+				DFAA054E19EAE5D2006FF35F /* iRate.h */,
+				DFAA054F19EAE5D2006FF35F /* iRate.m */,
+			);
+			name = iRate;
+			sourceTree = "<group>";
+		};
+		DF72C6DC1A40EE8D008C9EBE /* PhotoBarWidgetCustom */ = {
+			isa = PBXGroup;
+			children = (
+				DF72C6F61A473285008C9EBE /* PhotoBarWidgetCustom.entitlements */,
+				DF72C6EE1A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.h */,
+				DF72C6EF1A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.m */,
+				DF72C6DD1A40EE8D008C9EBE /* Supporting Files */,
+			);
+			path = PhotoBarWidgetCustom;
+			sourceTree = "<group>";
+		};
+		DF72C6DD1A40EE8D008C9EBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF72C6F31A40F896008C9EBE /* UIView+AutoLayout.h */,
+				DF72C6F41A40F896008C9EBE /* UIView+AutoLayout.m */,
+				DF72C6DE1A40EE8D008C9EBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF8ECD9E1A95DF8B0088DC20 /* PhotoBarWidgetCustom2 */ = {
+			isa = PBXGroup;
+			children = (
+				DF8ECDAC1A95DF930088DC20 /* PhotoBarWidgetCustom2.entitlements */,
+				DF8ECDCC1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.h */,
+				DF8ECDCD1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.m */,
+				DF8ECD9F1A95DF8B0088DC20 /* Supporting Files */,
+			);
+			path = PhotoBarWidgetCustom2;
+			sourceTree = SOURCE_ROOT;
+		};
+		DF8ECD9F1A95DF8B0088DC20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8ECDA01A95DF8B0088DC20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF8ECDB31A95DFB60088DC20 /* PhotoBarWidgetCustom3 */ = {
+			isa = PBXGroup;
+			children = (
+				DF8ECDC11A95DFBC0088DC20 /* PhotoBarWidgetCustom3.entitlements */,
+				DF8ECDD01A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.h */,
+				DF8ECDD11A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.m */,
+				DF8ECDB41A95DFB60088DC20 /* Supporting Files */,
+			);
+			path = PhotoBarWidgetCustom3;
+			sourceTree = SOURCE_ROOT;
+		};
+		DF8ECDB41A95DFB60088DC20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8ECDB51A95DFB60088DC20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE9FA7919DCC16900CE14CB /* PhotoBarWidget1 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FA8919DCC16F00CE14CB /* PhotoBarWidget1.entitlements */,
+				DFE9FA8B19DCC1DB00CE14CB /* TodayViewControllerLayout1.h */,
+				DFE9FA8C19DCC1DB00CE14CB /* TodayViewControllerLayout1.m */,
+				DFE9FA7F19DCC16900CE14CB /* MainInterface.storyboard */,
+				DFE9FA7A19DCC16900CE14CB /* Supporting Files */,
+			);
+			path = PhotoBarWidget1;
+			sourceTree = "<group>";
+		};
+		DFE9FA7A19DCC16900CE14CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FA7B19DCC16900CE14CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE9FA9819DD697A00CE14CB /* PhotoBarWidget2 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FAAF19DD69DF00CE14CB /* PhotoBarWidget2.entitlements */,
+				DFE9FAA919DD699800CE14CB /* TodayViewControllerLayout2.h */,
+				DFE9FAAA19DD699800CE14CB /* TodayViewControllerLayout2.m */,
+				DFE9FA9E19DD697A00CE14CB /* MainInterface.storyboard */,
+				DFE9FA9919DD697A00CE14CB /* Supporting Files */,
+			);
+			path = PhotoBarWidget2;
+			sourceTree = "<group>";
+		};
+		DFE9FA9919DD697A00CE14CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FA9A19DD697A00CE14CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE9FAB619DD6A1300CE14CB /* PhotoBarWidget3 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FAC619DD6A1B00CE14CB /* PhotoBarWidget3.entitlements */,
+				DFE9FAC819DD6A4100CE14CB /* TodayViewControllerLayout3.h */,
+				DFE9FAC919DD6A4100CE14CB /* TodayViewControllerLayout3.m */,
+				DFE9FABC19DD6A1300CE14CB /* MainInterface.storyboard */,
+				DFE9FAB719DD6A1300CE14CB /* Supporting Files */,
+			);
+			path = PhotoBarWidget3;
+			sourceTree = "<group>";
+		};
+		DFE9FAB719DD6A1300CE14CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FAB819DD6A1300CE14CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE9FAD419DD6A6100CE14CB /* PhotoBarWidget4 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FAE419DD6A6B00CE14CB /* PhotoBarWidget4.entitlements */,
+				DFE9FAE619DD6A9500CE14CB /* TodayViewControllerLayout4.h */,
+				DFE9FAE719DD6A9500CE14CB /* TodayViewControllerLayout4.m */,
+				DFE9FADA19DD6A6100CE14CB /* MainInterface.storyboard */,
+				DFE9FAD519DD6A6100CE14CB /* Supporting Files */,
+			);
+			path = PhotoBarWidget4;
+			sourceTree = "<group>";
+		};
+		DFE9FAD519DD6A6100CE14CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FAD619DD6A6100CE14CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE9FAF219DD6AAE00CE14CB /* PhotoBarWidget5 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FB0219DD6ABC00CE14CB /* PhotoBarWidget5.entitlements */,
+				DFE9FB0419DD6AE400CE14CB /* TodayViewControllerLayout5.h */,
+				DFE9FB0519DD6AE400CE14CB /* TodayViewControllerLayout5.m */,
+				DFE9FAF819DD6AAE00CE14CB /* MainInterface.storyboard */,
+				DFE9FAF319DD6AAE00CE14CB /* Supporting Files */,
+			);
+			path = PhotoBarWidget5;
+			sourceTree = "<group>";
+		};
+		DFE9FAF319DD6AAE00CE14CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FAF419DD6AAE00CE14CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE9FB1019DD6B0000CE14CB /* PhotoBarWidget6 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FB2019DD6B1000CE14CB /* PhotoBarWidget6.entitlements */,
+				DFE9FB2219DD6B4300CE14CB /* TodayViewControllerLayout6.h */,
+				DFE9FB2319DD6B4300CE14CB /* TodayViewControllerLayout6.m */,
+				DFE9FB1619DD6B0000CE14CB /* MainInterface.storyboard */,
+				DFE9FB1119DD6B0000CE14CB /* Supporting Files */,
+			);
+			path = PhotoBarWidget6;
+			sourceTree = "<group>";
+		};
+		DFE9FB1119DD6B0000CE14CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FB1219DD6B0000CE14CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE9FB2E19DD6B6800CE14CB /* PhotoBarWidget7 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FB3E19DD6B7A00CE14CB /* PhotoBarWidget7.entitlements */,
+				DFE9FB4019DD6B9800CE14CB /* TodayViewControllerLayout7.h */,
+				DFE9FB4119DD6B9800CE14CB /* TodayViewControllerLayout7.m */,
+				DFE9FB3419DD6B6800CE14CB /* MainInterface.storyboard */,
+				DFE9FB2F19DD6B6800CE14CB /* Supporting Files */,
+			);
+			path = PhotoBarWidget7;
+			sourceTree = "<group>";
+		};
+		DFE9FB2F19DD6B6800CE14CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FB3019DD6B6800CE14CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE9FB4C19DD6BB500CE14CB /* PhotoBarWidget8 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FB5C19DD6BC600CE14CB /* PhotoBarWidget8.entitlements */,
+				DFE9FB5E19DD6BE100CE14CB /* TodayViewControllerLayout8.h */,
+				DFE9FB5F19DD6BE100CE14CB /* TodayViewControllerLayout8.m */,
+				DFE9FB5219DD6BB500CE14CB /* MainInterface.storyboard */,
+				DFE9FB4D19DD6BB500CE14CB /* Supporting Files */,
+			);
+			path = PhotoBarWidget8;
+			sourceTree = "<group>";
+		};
+		DFE9FB4D19DD6BB500CE14CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FB4E19DD6BB500CE14CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE9FB7119DD6E5500CE14CB /* PhotoBarWidget9 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FB8119DD6E6700CE14CB /* PhotoBarWidget9.entitlements */,
+				DFE9FB8219DD6F7400CE14CB /* TodayViewControllerLayout9.h */,
+				DFE9FB8319DD6F7400CE14CB /* TodayViewControllerLayout9.m */,
+				DFE9FB7719DD6E5500CE14CB /* MainInterface.storyboard */,
+				DFE9FB7219DD6E5500CE14CB /* Supporting Files */,
+			);
+			path = PhotoBarWidget9;
+			sourceTree = "<group>";
+		};
+		DFE9FB7219DD6E5500CE14CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE9FB7319DD6E5500CE14CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF24700519CB0C7800094AAA /* PhotoBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF24702919CB0C7900094AAA /* Build configuration list for PBXNativeTarget "PhotoBar" */;
+			buildPhases = (
+				DF24700219CB0C7800094AAA /* Sources */,
+				DF24700319CB0C7800094AAA /* Frameworks */,
+				DF24700419CB0C7800094AAA /* Resources */,
+				DF24704719CB0CA900094AAA /* Embed App Extensions */,
+				014F1AC1217544C70054AE43 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE9FA8219DCC16900CE14CB /* PBXTargetDependency */,
+				DFE9FA8519DCC16900CE14CB /* PBXTargetDependency */,
+				DFE9FAA119DD697A00CE14CB /* PBXTargetDependency */,
+				DFE9FAA419DD697A00CE14CB /* PBXTargetDependency */,
+				DFE9FABF19DD6A1300CE14CB /* PBXTargetDependency */,
+				DFE9FAC219DD6A1300CE14CB /* PBXTargetDependency */,
+				DFE9FADD19DD6A6100CE14CB /* PBXTargetDependency */,
+				DFE9FAE019DD6A6100CE14CB /* PBXTargetDependency */,
+				DFE9FAFB19DD6AAE00CE14CB /* PBXTargetDependency */,
+				DFE9FAFE19DD6AAE00CE14CB /* PBXTargetDependency */,
+				DFE9FB1919DD6B0000CE14CB /* PBXTargetDependency */,
+				DFE9FB1C19DD6B0000CE14CB /* PBXTargetDependency */,
+				DFE9FB3719DD6B6800CE14CB /* PBXTargetDependency */,
+				DFE9FB3A19DD6B6800CE14CB /* PBXTargetDependency */,
+				DFE9FB5519DD6BB500CE14CB /* PBXTargetDependency */,
+				DFE9FB5819DD6BB500CE14CB /* PBXTargetDependency */,
+				DFE9FB7A19DD6E5500CE14CB /* PBXTargetDependency */,
+				DFE9FB7D19DD6E5500CE14CB /* PBXTargetDependency */,
+				DF72C6E51A40EE8D008C9EBE /* PBXTargetDependency */,
+				DF8ECDA71A95DF8B0088DC20 /* PBXTargetDependency */,
+				DF8ECDBC1A95DFB60088DC20 /* PBXTargetDependency */,
+			);
+			name = PhotoBar;
+			productName = PhotoBar;
+			productReference = DF24700619CB0C7800094AAA /* PhotoBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF24701E19CB0C7900094AAA /* PhotoBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF24702C19CB0C7900094AAA /* Build configuration list for PBXNativeTarget "PhotoBarTests" */;
+			buildPhases = (
+				DF24701B19CB0C7900094AAA /* Sources */,
+				DF24701C19CB0C7900094AAA /* Frameworks */,
+				DF24701D19CB0C7900094AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF24702119CB0C7900094AAA /* PBXTargetDependency */,
+			);
+			name = PhotoBarTests;
+			productName = PhotoBarTests;
+			productReference = DF24701F19CB0C7900094AAA /* PhotoBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF72C6D91A40EE8D008C9EBE /* PhotoBarWidgetCustom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF72C6E91A40EE8D008C9EBE /* Build configuration list for PBXNativeTarget "PhotoBarWidgetCustom" */;
+			buildPhases = (
+				DF72C6D61A40EE8D008C9EBE /* Sources */,
+				DF72C6D71A40EE8D008C9EBE /* Frameworks */,
+				DF72C6D81A40EE8D008C9EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidgetCustom;
+			productName = PhotoBarWidgetCustom;
+			productReference = DF72C6DA1A40EE8D008C9EBE /* PhotoBarWidgetCustom.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DF8ECD9B1A95DF8B0088DC20 /* PhotoBarWidgetCustom2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8ECDA91A95DF8C0088DC20 /* Build configuration list for PBXNativeTarget "PhotoBarWidgetCustom2" */;
+			buildPhases = (
+				DF8ECD981A95DF8B0088DC20 /* Sources */,
+				DF8ECD991A95DF8B0088DC20 /* Frameworks */,
+				DF8ECD9A1A95DF8B0088DC20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidgetCustom2;
+			productName = PhotoBarWidgetCustom2;
+			productReference = DF8ECD9C1A95DF8B0088DC20 /* PhotoBarWidgetCustom2.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DF8ECDB01A95DFB60088DC20 /* PhotoBarWidgetCustom3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8ECDBE1A95DFB70088DC20 /* Build configuration list for PBXNativeTarget "PhotoBarWidgetCustom3" */;
+			buildPhases = (
+				DF8ECDAD1A95DFB60088DC20 /* Sources */,
+				DF8ECDAE1A95DFB60088DC20 /* Frameworks */,
+				DF8ECDAF1A95DFB60088DC20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidgetCustom3;
+			productName = PhotoBarWidgetCustom3;
+			productReference = DF8ECDB11A95DFB60088DC20 /* PhotoBarWidgetCustom3.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DFE9FA7619DCC16900CE14CB /* PhotoBarWidget1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE9FA8619DCC16900CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget1" */;
+			buildPhases = (
+				DFE9FA7319DCC16900CE14CB /* Sources */,
+				DFE9FA7419DCC16900CE14CB /* Frameworks */,
+				DFE9FA7519DCC16900CE14CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidget1;
+			productName = PhotoBarWidget1;
+			productReference = DFE9FA7719DCC16900CE14CB /* PhotoBarWidget1.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DFE9FA9519DD697A00CE14CB /* PhotoBarWidget2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE9FAA519DD697A00CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget2" */;
+			buildPhases = (
+				DFE9FA9219DD697A00CE14CB /* Sources */,
+				DFE9FA9319DD697A00CE14CB /* Frameworks */,
+				DFE9FA9419DD697A00CE14CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidget2;
+			productName = PhotoBarWidget2;
+			productReference = DFE9FA9619DD697A00CE14CB /* PhotoBarWidget2.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DFE9FAB319DD6A1300CE14CB /* PhotoBarWidget3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE9FAC319DD6A1400CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget3" */;
+			buildPhases = (
+				DFE9FAB019DD6A1300CE14CB /* Sources */,
+				DFE9FAB119DD6A1300CE14CB /* Frameworks */,
+				DFE9FAB219DD6A1300CE14CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidget3;
+			productName = PhotoBarWidget3;
+			productReference = DFE9FAB419DD6A1300CE14CB /* PhotoBarWidget3.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DFE9FAD119DD6A6100CE14CB /* PhotoBarWidget4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE9FAE119DD6A6100CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget4" */;
+			buildPhases = (
+				DFE9FACE19DD6A6100CE14CB /* Sources */,
+				DFE9FACF19DD6A6100CE14CB /* Frameworks */,
+				DFE9FAD019DD6A6100CE14CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidget4;
+			productName = PhotoBarWidget4;
+			productReference = DFE9FAD219DD6A6100CE14CB /* PhotoBarWidget4.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DFE9FAEF19DD6AAE00CE14CB /* PhotoBarWidget5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE9FAFF19DD6AAE00CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget5" */;
+			buildPhases = (
+				DFE9FAEC19DD6AAE00CE14CB /* Sources */,
+				DFE9FAED19DD6AAE00CE14CB /* Frameworks */,
+				DFE9FAEE19DD6AAE00CE14CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidget5;
+			productName = PhotoBarWidget5;
+			productReference = DFE9FAF019DD6AAE00CE14CB /* PhotoBarWidget5.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DFE9FB0D19DD6B0000CE14CB /* PhotoBarWidget6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE9FB1D19DD6B0000CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget6" */;
+			buildPhases = (
+				DFE9FB0A19DD6B0000CE14CB /* Sources */,
+				DFE9FB0B19DD6B0000CE14CB /* Frameworks */,
+				DFE9FB0C19DD6B0000CE14CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidget6;
+			productName = PhotoBarWidget6;
+			productReference = DFE9FB0E19DD6B0000CE14CB /* PhotoBarWidget6.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DFE9FB2B19DD6B6800CE14CB /* PhotoBarWidget7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE9FB3B19DD6B6800CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget7" */;
+			buildPhases = (
+				DFE9FB2819DD6B6800CE14CB /* Sources */,
+				DFE9FB2919DD6B6800CE14CB /* Frameworks */,
+				DFE9FB2A19DD6B6800CE14CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidget7;
+			productName = PhotoBarWidget7;
+			productReference = DFE9FB2C19DD6B6800CE14CB /* PhotoBarWidget7.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DFE9FB4919DD6BB500CE14CB /* PhotoBarWidget8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE9FB5919DD6BB500CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget8" */;
+			buildPhases = (
+				DFE9FB4619DD6BB500CE14CB /* Sources */,
+				DFE9FB4719DD6BB500CE14CB /* Frameworks */,
+				DFE9FB4819DD6BB500CE14CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidget8;
+			productName = PhotoBarWidget8;
+			productReference = DFE9FB4A19DD6BB500CE14CB /* PhotoBarWidget8.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DFE9FB6E19DD6E5400CE14CB /* PhotoBarWidget9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE9FB7E19DD6E5500CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget9" */;
+			buildPhases = (
+				DFE9FB6B19DD6E5400CE14CB /* Sources */,
+				DFE9FB6C19DD6E5400CE14CB /* Frameworks */,
+				DFE9FB6D19DD6E5400CE14CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBarWidget9;
+			productName = PhotoBarWidget9;
+			productReference = DFE9FB6F19DD6E5400CE14CB /* PhotoBarWidget9.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF246FFE19CB0C7800094AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Lennart Reiher";
+				TargetAttributes = {
+					DF24700519CB0C7800094AAA = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DF24701E19CB0C7900094AAA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DF24700519CB0C7800094AAA;
+					};
+					DF72C6D91A40EE8D008C9EBE = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DF8ECD9B1A95DF8B0088DC20 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DF8ECDB01A95DFB60088DC20 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFE9FA7619DCC16900CE14CB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFE9FA9519DD697A00CE14CB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFE9FAB319DD6A1300CE14CB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFE9FAD119DD6A6100CE14CB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFE9FAEF19DD6AAE00CE14CB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFE9FB0D19DD6B0000CE14CB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFE9FB2B19DD6B6800CE14CB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFE9FB4919DD6BB500CE14CB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFE9FB6E19DD6E5400CE14CB = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZDA53JH7W5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DF24700119CB0C7800094AAA /* Build configuration list for PBXProject "PhotoBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				fr,
+			);
+			mainGroup = DF246FFD19CB0C7800094AAA;
+			productRefGroup = DF24700719CB0C7800094AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF24700519CB0C7800094AAA /* PhotoBar */,
+				DF24701E19CB0C7900094AAA /* PhotoBarTests */,
+				DFE9FA7619DCC16900CE14CB /* PhotoBarWidget1 */,
+				DFE9FA9519DD697A00CE14CB /* PhotoBarWidget2 */,
+				DFE9FAB319DD6A1300CE14CB /* PhotoBarWidget3 */,
+				DFE9FAD119DD6A6100CE14CB /* PhotoBarWidget4 */,
+				DFE9FAEF19DD6AAE00CE14CB /* PhotoBarWidget5 */,
+				DFE9FB0D19DD6B0000CE14CB /* PhotoBarWidget6 */,
+				DFE9FB2B19DD6B6800CE14CB /* PhotoBarWidget7 */,
+				DFE9FB4919DD6BB500CE14CB /* PhotoBarWidget8 */,
+				DFE9FB6E19DD6E5400CE14CB /* PhotoBarWidget9 */,
+				DF72C6D91A40EE8D008C9EBE /* PhotoBarWidgetCustom */,
+				DF8ECD9B1A95DF8B0088DC20 /* PhotoBarWidgetCustom2 */,
+				DF8ECDB01A95DFB60088DC20 /* PhotoBarWidgetCustom3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF24700419CB0C7800094AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB8A19DD869000CE14CB /* MainInterface.storyboard in Resources */,
+				DFE9FB8719DD867400CE14CB /* MainInterface.storyboard in Resources */,
+				DFE9FB8B19DD869600CE14CB /* MainInterface.storyboard in Resources */,
+				DFE9FB8819DD868400CE14CB /* MainInterface.storyboard in Resources */,
+				DF24701519CB0C7800094AAA /* Main.storyboard in Resources */,
+				DFE9FB8919DD868900CE14CB /* MainInterface.storyboard in Resources */,
+				DFE9FB8619DD866F00CE14CB /* MainInterface.storyboard in Resources */,
+				DFC8CA4D19F3F00500F7E00B /* iRate.bundle in Resources */,
+				DFE9FB8D19DD86A200CE14CB /* MainInterface.storyboard in Resources */,
+				DFE207C219D8D28D008A492B /* LaunchScreen.storyboard in Resources */,
+				DFE9FB8C19DD869D00CE14CB /* MainInterface.storyboard in Resources */,
+				DFB9E8A219E0AA64006C776B /* Localizable.strings in Resources */,
+				DF24701719CB0C7800094AAA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF24701D19CB0C7900094AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF72C6D81A40EE8D008C9EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8ECD9A1A95DF8B0088DC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8ECDAF1A95DFB60088DC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FA7519DCC16900CE14CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FA8019DCC16900CE14CB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FA9419DD697A00CE14CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FA9F19DD697A00CE14CB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FAB219DD6A1300CE14CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FABD19DD6A1300CE14CB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FAD019DD6A6100CE14CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FADB19DD6A6100CE14CB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FAEE19DD6AAE00CE14CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FAF919DD6AAE00CE14CB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB0C19DD6B0000CE14CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB1719DD6B0000CE14CB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB2A19DD6B6800CE14CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB3519DD6B6800CE14CB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB4819DD6BB500CE14CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB5319DD6BB500CE14CB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB6D19DD6E5400CE14CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB7819DD6E5500CE14CB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF24700219CB0C7800094AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB6219DD6BE100CE14CB /* TodayViewControllerLayout8.m in Sources */,
+				DFE9FACC19DD6A4100CE14CB /* TodayViewControllerLayout3.m in Sources */,
+				DFE9FB8419DD6F7400CE14CB /* TodayViewControllerLayout9.m in Sources */,
+				DF50341319CFAE3200F7AB36 /* ViewControllerLayout6.m in Sources */,
+				DF714AB41A1A8F1B004206FD /* EditViewController.m in Sources */,
+				DF8ECDD21A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.m in Sources */,
+				DFE425BF1A96AF0D0054E3E2 /* ViewControllerLayoutCustom3.m in Sources */,
+				DFE9FB2619DD6B4300CE14CB /* TodayViewControllerLayout6.m in Sources */,
+				DF9346B619CE3E07006B5C2E /* ViewControllerLayout5.m in Sources */,
+				DFF5408F1A93E3AD00CBA462 /* BottomButtonViewControllerCustom.m in Sources */,
+				DFD8ACD51A9BD7A400552D95 /* TutorialPageContentController.m in Sources */,
+				DF6648F319CC82E00086074E /* ViewControllerLayout2.m in Sources */,
+				DFB9E89819E095B4006C776B /* ViewControllerLayout9.m in Sources */,
+				DFEDAAA519CCFE2B00668CFD /* ViewControllerLayoutAbstract.m in Sources */,
+				DF72C6F01A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.m in Sources */,
+				DF8ECDCE1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.m in Sources */,
+				DFE2079C19D4CCB2008A492B /* ViewControllerLayout1.m in Sources */,
+				DF24715919CB0FC000094AAA /* DZNPhotoPickerController.m in Sources */,
+				DFE9FAAD19DD699800CE14CB /* TodayViewControllerLayout2.m in Sources */,
+				DF2203CC19DC7D5700ED52BC /* ViewControllerLayout8.m in Sources */,
+				DF24715C19CB107B00094AAA /* DZNPhotoEditorViewController.m in Sources */,
+				DFE9FB0819DD6AE400CE14CB /* TodayViewControllerLayout5.m in Sources */,
+				DFDBBFF61A22307D009C57AF /* ViewControllerLayoutCustom.m in Sources */,
+				DFE9FA8F19DCC1DB00CE14CB /* TodayViewControllerLayout1.m in Sources */,
+				DFE2076719D39465008A492B /* ViewControllerLayout4.m in Sources */,
+				DFE2075B19D0F298008A492B /* SelectionViewController.m in Sources */,
+				DF24700F19CB0C7800094AAA /* AppDelegate.m in Sources */,
+				DFE9FA7119DCC01400CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFD8ACD81A9BDDD500552D95 /* TutorialPageViewController.m in Sources */,
+				DFE2076419D38356008A492B /* OldStyleNavigationControllerAnimatedTransition.m in Sources */,
+				DF24700C19CB0C7800094AAA /* main.m in Sources */,
+				DFE9FAEA19DD6A9500CE14CB /* TodayViewControllerLayout4.m in Sources */,
+				DFC89EFD1A2893DD0071CC8F /* HeaderViewController.m in Sources */,
+				DFE425BC1A96AEFF0054E3E2 /* ViewControllerLayoutCustom2.m in Sources */,
+				DFAA055019EAE5D2006FF35F /* iRate.m in Sources */,
+				DF5FE5C81A0FFA8000431731 /* CustomActivityItems.m in Sources */,
+				DF72C6F71A47373C008C9EBE /* UIView+AutoLayout.m in Sources */,
+				DFE9FB4419DD6B9800CE14CB /* TodayViewControllerLayout7.m in Sources */,
+				DFE207BB19D8B13E008A492B /* ViewControllerLayout3.m in Sources */,
+				DF24715F19CB10B700094AAA /* DZNPhotoPickerControllerConstants.m in Sources */,
+				DF0F78DB19CC9601000EFCF6 /* ViewControllerLayout7.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF24701B19CB0C7900094AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF24702619CB0C7900094AAA /* PhotoBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF72C6D61A40EE8D008C9EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72C6F21A40F20C008C9EBE /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DF72C6F51A40F896008C9EBE /* UIView+AutoLayout.m in Sources */,
+				DF72C6F11A40EF5F008C9EBE /* TodayViewControllerLayoutCustom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8ECD981A95DF8B0088DC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4EFD0A1A95ED48000CE270 /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DF8ECDCF1A95E2570088DC20 /* TodayViewControllerLayoutCustom2.m in Sources */,
+				DF8ECDC21A95E0400088DC20 /* UIView+AutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8ECDAD1A95DFB60088DC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4EFD0B1A95ED49000CE270 /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DF8ECDC31A95E0400088DC20 /* UIView+AutoLayout.m in Sources */,
+				DF8ECDD31A95E26F0088DC20 /* TodayViewControllerLayoutCustom3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FA7319DCC16900CE14CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FA9119DCC21D00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFE9FA9019DCC1DB00CE14CB /* TodayViewControllerLayout1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FA9219DD697A00CE14CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB6419DD6BFA00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFE9FAAE19DD699800CE14CB /* TodayViewControllerLayout2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FAB019DD6A1300CE14CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB6519DD6BFB00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFE9FACD19DD6A4100CE14CB /* TodayViewControllerLayout3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FACE19DD6A6100CE14CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB6719DD6BFC00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFE9FAEB19DD6A9500CE14CB /* TodayViewControllerLayout4.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FAEC19DD6AAE00CE14CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB6619DD6BFC00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFE9FB0919DD6AE400CE14CB /* TodayViewControllerLayout5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB0A19DD6B0000CE14CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB6819DD6BFD00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFE9FB2719DD6B4300CE14CB /* TodayViewControllerLayout6.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB2819DD6B6800CE14CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB6919DD6BFD00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFE9FB4519DD6B9800CE14CB /* TodayViewControllerLayout7.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB4619DD6BB500CE14CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB6A19DD6BFE00CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFE9FB6319DD6BE100CE14CB /* TodayViewControllerLayout8.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE9FB6B19DD6E5400CE14CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9FB8E19DD877700CE14CB /* TodayViewControllerLayoutAbstract.m in Sources */,
+				DFE9FB8519DD6F7400CE14CB /* TodayViewControllerLayout9.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF24702119CB0C7900094AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF24700519CB0C7800094AAA /* PhotoBar */;
+			targetProxy = DF24702019CB0C7900094AAA /* PBXContainerItemProxy */;
+		};
+		DF72C6E51A40EE8D008C9EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF72C6D91A40EE8D008C9EBE /* PhotoBarWidgetCustom */;
+			targetProxy = DF72C6E41A40EE8D008C9EBE /* PBXContainerItemProxy */;
+		};
+		DF8ECDA71A95DF8B0088DC20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8ECD9B1A95DF8B0088DC20 /* PhotoBarWidgetCustom2 */;
+			targetProxy = DF8ECDA61A95DF8B0088DC20 /* PBXContainerItemProxy */;
+		};
+		DF8ECDBC1A95DFB60088DC20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8ECDB01A95DFB60088DC20 /* PhotoBarWidgetCustom3 */;
+			targetProxy = DF8ECDBB1A95DFB60088DC20 /* PBXContainerItemProxy */;
+		};
+		DFE9FA8219DCC16900CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FA7619DCC16900CE14CB /* PhotoBarWidget1 */;
+			targetProxy = DFE9FA8119DCC16900CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FA8519DCC16900CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FA7619DCC16900CE14CB /* PhotoBarWidget1 */;
+			targetProxy = DFE9FA8419DCC16900CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FAA119DD697A00CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FA9519DD697A00CE14CB /* PhotoBarWidget2 */;
+			targetProxy = DFE9FAA019DD697A00CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FAA419DD697A00CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FA9519DD697A00CE14CB /* PhotoBarWidget2 */;
+			targetProxy = DFE9FAA319DD697A00CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FABF19DD6A1300CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FAB319DD6A1300CE14CB /* PhotoBarWidget3 */;
+			targetProxy = DFE9FABE19DD6A1300CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FAC219DD6A1300CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FAB319DD6A1300CE14CB /* PhotoBarWidget3 */;
+			targetProxy = DFE9FAC119DD6A1300CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FADD19DD6A6100CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FAD119DD6A6100CE14CB /* PhotoBarWidget4 */;
+			targetProxy = DFE9FADC19DD6A6100CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FAE019DD6A6100CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FAD119DD6A6100CE14CB /* PhotoBarWidget4 */;
+			targetProxy = DFE9FADF19DD6A6100CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FAFB19DD6AAE00CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FAEF19DD6AAE00CE14CB /* PhotoBarWidget5 */;
+			targetProxy = DFE9FAFA19DD6AAE00CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FAFE19DD6AAE00CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FAEF19DD6AAE00CE14CB /* PhotoBarWidget5 */;
+			targetProxy = DFE9FAFD19DD6AAE00CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FB1919DD6B0000CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FB0D19DD6B0000CE14CB /* PhotoBarWidget6 */;
+			targetProxy = DFE9FB1819DD6B0000CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FB1C19DD6B0000CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FB0D19DD6B0000CE14CB /* PhotoBarWidget6 */;
+			targetProxy = DFE9FB1B19DD6B0000CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FB3719DD6B6800CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FB2B19DD6B6800CE14CB /* PhotoBarWidget7 */;
+			targetProxy = DFE9FB3619DD6B6800CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FB3A19DD6B6800CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FB2B19DD6B6800CE14CB /* PhotoBarWidget7 */;
+			targetProxy = DFE9FB3919DD6B6800CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FB5519DD6BB500CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FB4919DD6BB500CE14CB /* PhotoBarWidget8 */;
+			targetProxy = DFE9FB5419DD6BB500CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FB5819DD6BB500CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FB4919DD6BB500CE14CB /* PhotoBarWidget8 */;
+			targetProxy = DFE9FB5719DD6BB500CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FB7A19DD6E5500CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FB6E19DD6E5400CE14CB /* PhotoBarWidget9 */;
+			targetProxy = DFE9FB7919DD6E5500CE14CB /* PBXContainerItemProxy */;
+		};
+		DFE9FB7D19DD6E5500CE14CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE9FB6E19DD6E5400CE14CB /* PhotoBarWidget9 */;
+			targetProxy = DFE9FB7C19DD6E5500CE14CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF24701319CB0C7800094AAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF24701419CB0C7800094AAA /* Base */,
+				DF13537119E5E279005481F9 /* de */,
+				DFDF99081A9D46F200EDC32A /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB9E8A419E0AA64006C776B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB9E8A319E0AA64006C776B /* en */,
+				DFB9E8A519E0AA67006C776B /* de */,
+				DFDF99091A9D46F200EDC32A /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF24702719CB0C7900094AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF24702819CB0C7900094AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF24702A19CB0C7900094AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhotoBar/PhotoBar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = ZDA53JH7W5;
+				INFOPLIST_FILE = PhotoBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhotoBar",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF24702B19CB0C7900094AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhotoBar/PhotoBar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = ZDA53JH7W5;
+				INFOPLIST_FILE = PhotoBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhotoBar",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF24702D19CB0C7900094AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoBar.app/PhotoBar";
+			};
+			name = Debug;
+		};
+		DF24702E19CB0C7900094AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoBar.app/PhotoBar";
+			};
+			name = Release;
+		};
+		DF72C6E71A40EE8D008C9EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidgetCustom/PhotoBarWidgetCustom.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidgetCustom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF72C6E81A40EE8D008C9EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidgetCustom/PhotoBarWidgetCustom.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidgetCustom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DF8ECDAA1A95DF8C0088DC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidgetCustom2/PhotoBarWidgetCustom2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidgetCustom2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF8ECDAB1A95DF8C0088DC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidgetCustom2/PhotoBarWidgetCustom2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidgetCustom2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DF8ECDBF1A95DFB70088DC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidgetCustom3/PhotoBarWidgetCustom3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidgetCustom3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF8ECDC01A95DFB70088DC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidgetCustom3/PhotoBarWidgetCustom3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidgetCustom3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFE9FA8719DCC16900CE14CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget1/PhotoBarWidget1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidget1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFE9FA8819DCC16900CE14CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget1/PhotoBarWidget1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidget1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFE9FAA619DD697A00CE14CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget2/PhotoBarWidget2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidget2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFE9FAA719DD697A00CE14CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget2/PhotoBarWidget2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidget2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFE9FAC419DD6A1400CE14CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget3/PhotoBarWidget3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidget3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFE9FAC519DD6A1400CE14CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget3/PhotoBarWidget3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidget3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFE9FAE219DD6A6100CE14CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget4/PhotoBarWidget4.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidget4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFE9FAE319DD6A6100CE14CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget4/PhotoBarWidget4.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidget4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFE9FB0019DD6AAE00CE14CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget5/PhotoBarWidget5.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidget5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFE9FB0119DD6AAE00CE14CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget5/PhotoBarWidget5.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidget5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFE9FB1E19DD6B0000CE14CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget6/PhotoBarWidget6.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidget6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFE9FB1F19DD6B0000CE14CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget6/PhotoBarWidget6.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidget6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFE9FB3C19DD6B6800CE14CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget7/PhotoBarWidget7.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidget7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFE9FB3D19DD6B6800CE14CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget7/PhotoBarWidget7.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidget7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFE9FB5A19DD6BB500CE14CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget8/PhotoBarWidget8.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidget8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFE9FB5B19DD6BB500CE14CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget8/PhotoBarWidget8.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidget8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFE9FB7F19DD6E5500CE14CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget9/PhotoBarWidget9.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBarWidget9/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFE9FB8019DD6E5500CE14CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoBarWidget9/PhotoBarWidget9.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoBarWidget9/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennart.reiher.PhotoBar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF24700119CB0C7800094AAA /* Build configuration list for PBXProject "PhotoBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF24702719CB0C7900094AAA /* Debug */,
+				DF24702819CB0C7900094AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF24702919CB0C7900094AAA /* Build configuration list for PBXNativeTarget "PhotoBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF24702A19CB0C7900094AAA /* Debug */,
+				DF24702B19CB0C7900094AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF24702C19CB0C7900094AAA /* Build configuration list for PBXNativeTarget "PhotoBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF24702D19CB0C7900094AAA /* Debug */,
+				DF24702E19CB0C7900094AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF72C6E91A40EE8D008C9EBE /* Build configuration list for PBXNativeTarget "PhotoBarWidgetCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF72C6E71A40EE8D008C9EBE /* Debug */,
+				DF72C6E81A40EE8D008C9EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8ECDA91A95DF8C0088DC20 /* Build configuration list for PBXNativeTarget "PhotoBarWidgetCustom2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8ECDAA1A95DF8C0088DC20 /* Debug */,
+				DF8ECDAB1A95DF8C0088DC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8ECDBE1A95DFB70088DC20 /* Build configuration list for PBXNativeTarget "PhotoBarWidgetCustom3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8ECDBF1A95DFB70088DC20 /* Debug */,
+				DF8ECDC01A95DFB70088DC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE9FA8619DCC16900CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE9FA8719DCC16900CE14CB /* Debug */,
+				DFE9FA8819DCC16900CE14CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE9FAA519DD697A00CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE9FAA619DD697A00CE14CB /* Debug */,
+				DFE9FAA719DD697A00CE14CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE9FAC319DD6A1400CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE9FAC419DD6A1400CE14CB /* Debug */,
+				DFE9FAC519DD6A1400CE14CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE9FAE119DD6A6100CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE9FAE219DD6A6100CE14CB /* Debug */,
+				DFE9FAE319DD6A6100CE14CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE9FAFF19DD6AAE00CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE9FB0019DD6AAE00CE14CB /* Debug */,
+				DFE9FB0119DD6AAE00CE14CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE9FB1D19DD6B0000CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE9FB1E19DD6B0000CE14CB /* Debug */,
+				DFE9FB1F19DD6B0000CE14CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE9FB3B19DD6B6800CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE9FB3C19DD6B6800CE14CB /* Debug */,
+				DFE9FB3D19DD6B6800CE14CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE9FB5919DD6BB500CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE9FB5A19DD6BB500CE14CB /* Debug */,
+				DFE9FB5B19DD6BB500CE14CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE9FB7E19DD6E5500CE14CB /* Build configuration list for PBXNativeTarget "PhotoBarWidget9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE9FB7F19DD6E5500CE14CB /* Debug */,
+				DFE9FB8019DD6E5500CE14CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF246FFE19CB0C7800094AAA /* Project object */;
+}
