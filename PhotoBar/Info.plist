@@ -40,6 +40,10 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera access allows to take a new picture from within the app and place it in one of the layouts immediately.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo library access allows to select a picture from your photo library for placement in one of the layouts.</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>
