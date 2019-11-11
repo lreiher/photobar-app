@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <NotificationCenter/NotificationCenter.h>
 
 @protocol TodayViewControllerLayoutProtocol <NSObject>
 
@@ -15,7 +16,7 @@
 
 @end
 
-@interface TodayViewControllerLayoutAbstract : UIViewController
+@interface TodayViewControllerLayoutAbstract : UIViewController <NCWidgetProviding>
 
 @property (nonatomic) NSUserDefaults* sharedDefaults;
 @property (nonatomic) NSURL* storeURL;

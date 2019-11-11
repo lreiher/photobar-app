@@ -21,6 +21,17 @@
     [self setPreferredContentSize:CGSizeMake(0, self.view.frame.size.width / 9 * 4)];
 }
 
+- (void)widgetActiveDisplayModeDidChange:(NCWidgetDisplayMode)activeDisplayMode
+                         withMaximumSize:(CGSize)maxSize {
+
+    CGSize preferredSize = CGSizeMake(0, self.view.frame.size.width / 9 * 4);
+    if ((activeDisplayMode == NCWidgetDisplayModeExpanded) || (preferredSize.height < maxSize.height)) {
+        self.preferredContentSize = preferredSize;
+    } else if (activeDisplayMode == NCWidgetDisplayModeCompact) {
+        self.preferredContentSize = maxSize;
+    }
+}
+
 -(void)loadImages {
     
     NSString* pathComponent = @"layout6_image";

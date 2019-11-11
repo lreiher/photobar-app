@@ -40,6 +40,16 @@
     [self setPreferredContentSize:CGSizeMake(0, [self getPreferredHeight])];
 }
 
+- (void)widgetActiveDisplayModeDidChange:(NCWidgetDisplayMode)activeDisplayMode
+                         withMaximumSize:(CGSize)maxSize {
+
+    CGSize preferredSize = CGSizeMake(0, [self getPreferredHeight]);
+    if ((activeDisplayMode == NCWidgetDisplayModeExpanded) || (preferredSize.height < maxSize.height)) {
+        self.preferredContentSize = preferredSize;
+    } else if (activeDisplayMode == NCWidgetDisplayModeCompact) {
+        self.preferredContentSize = maxSize;
+    }
+}
 
 -(void)setupSubviews {
     
